@@ -21,15 +21,16 @@
     </item>
     
     <item>
-      <title>Payment Fee Calculator</title>
+      <title>Payment Gateways Fee Calculator</title>
       <link>http://depositfix.com/calc/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
       <guid>http://depositfix.com/calc/</guid>
-      <description>&lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://integrationagent.s3.amazonaws.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://integrationagent.s3.amazonaws.com/css/JSCalc.css&#34;
-      media=&#34;screen&#34;/&gt;&lt;/p&gt;
+      <description>&lt;p&gt;There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We&amp;rsquo;ve created a fee calculator to help you to choose the right service.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;http://depositfix.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://depositfix.com/css/JSCalc.css&#34; media=&#34;screen&#34;/&gt;&lt;/p&gt;
 
 &lt;div ng-app=&#34;fees&#34; ng-controller=&#34;feesCtrl&#34; class=&#34;calc&#34;&gt;
             &lt;form&gt;
@@ -91,6 +92,15 @@
                 &lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
+
+&lt;div class=&#34;cta&#34;&gt;
+	Looking for a service to accept payment for HubSpot?
+
+		&lt;a href=&#39;http://depositfix.com/&#39;&gt;
+			&lt;button class=&#34;button&#34; href=&#34;http://depositfix.com/&#34;&gt;Try DepositFix&lt;/button&gt;
+		&lt;/a&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

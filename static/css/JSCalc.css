@@ -1,0 +1,66 @@
+.calc{
+    font-family: proxima-nova,Proxima Nova,helvetica,arial,sans-serif;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+
+.Table {
+    margin-top: 40px;
+    display: table;
+}
+
+.Heading {
+    display: table-row;
+    font-weight: normal;
+    background: #ededed;
+}
+
+.Heading .Cell{
+
+}
+
+.Row {
+    display: table-row;
+    padding: 10px;
+}
+
+.Cell {
+    display: table-cell;
+    border-width: thin;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.Input {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.Button {
+    padding: 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    background-color: #336699;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+}

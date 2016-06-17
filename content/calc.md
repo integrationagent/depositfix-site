@@ -1,14 +1,15 @@
 +++
 date = "2016-06-16T10:35:19-05:00"
 draft = false
-title = "Payment Fee Calculator"
+title = "Payment Gateways Fee Calculator"
 
 +++
 
+There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We've created a fee calculator to help you to choose the right service.
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script type="text/javascript" src="https://integrationagent.s3.amazonaws.com/js/JSCalc.js"></script>
-<link rel="stylesheet" type="text/css" href="https://integrationagent.s3.amazonaws.com/css/JSCalc.css"
-      media="screen"/>
+<script type="text/javascript" src="/js/JSCalc.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/JSCalc.css" media="screen"/>
 
 
 <div ng-app="fees" ng-controller="feesCtrl" class="calc">
@@ -71,4 +72,8 @@ title = "Payment Fee Calculator"
 				</div>
 			</div>
 		</div>
+
+{{< cta text="Looking for a service to accept payment for HubSpot?" button="Try DepositFix" link="/" >}}
+
+
 
