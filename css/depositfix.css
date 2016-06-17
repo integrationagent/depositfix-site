@@ -24,3 +24,22 @@ body {
     letter-spacing: 1px;
     color: #fff;
 }
+
+.cta{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 15px;
+    background-color: #336699;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.cta .button{
+    background-color: #e18514;
+    border: 0px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3px 10px;
+    margin-left: 20px;
+    font-weight: 300;
+}
