@@ -73,7 +73,7 @@ There are a lot of payment gateways available for your online business. Which on
 			</div>
 		</div>
 
-{{< cta text="Looking for a service to accept payment within HubSpot?" button="Try DepositFix" link="/" >}}
+{{< cta text="Looking for a service to accept payments within HubSpot?" button="Try DepositFix" link="/" >}}
 
 
 
