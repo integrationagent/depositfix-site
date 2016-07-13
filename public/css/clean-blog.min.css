@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Lora, 'Times New Roman', serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 20px;
     color: #404040;
     margin-top: 60px;
@@ -297,12 +297,13 @@ hr.small {
 }
 
 footer {
-    padding: 50px 0 65px
+    padding-bottom: 15px;
 }
 
 footer .list-inline {
     margin: 0;
-    padding: 0
+    padding: 0;
+    font-size: 16px;
 }
 
 footer .copyright {
