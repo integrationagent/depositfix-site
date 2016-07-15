@@ -1,13 +1,13 @@
 .calc{
     font-family: proxima-nova,Proxima Nova,helvetica,arial,sans-serif;
     font-size: 18px;
-    border: 1px solid #ddd;
-    padding: 30px;
 }
 
 .Table {
-    margin-top: 40px;
     display: table;
+    display: table;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 .Heading {
