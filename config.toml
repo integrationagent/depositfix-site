@@ -1,5 +1,5 @@
 baseurl = "http://depositfix.com"
-title = "DepositFix - Payment Solution for HubSpot"
+title = "Payment Solution for HubSpot"
 canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
