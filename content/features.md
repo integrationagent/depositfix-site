@@ -37,6 +37,5 @@ title = "Features"
 <p>Discounts</p>
 <img src="/img/screenshots/discounts.png" class="screenshot" />
 <hr class="sep"/>
-<div style="padding-top: 60px; padding-bottom: 60px; text-align: center">
-<h1>Pricing: $99/m. No onboarding fee. No transactions limit.</h1>
-</div>
+
+{{< agile_form text="Pricing: $99/m. No onboarding fee. No transactions limit." button="Start Free Trial" >}}

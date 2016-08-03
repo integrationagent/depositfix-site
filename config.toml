@@ -17,6 +17,12 @@ copyright = "Integration Agent 2016"
   Ganalytics = "UA-7712728-16"
 
 [[menu.main]]
+  name = "Features"
+  url = "/features"
+  weight = -200
+
+[[menu.main]]
   name = "Fee Calculator"
   url = "/calc"
-  weight = -200
+  weight = -180
+
