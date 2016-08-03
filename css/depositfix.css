@@ -66,6 +66,6 @@ footer a{
 
 hr.sep{
     border-top: 1px dotted #dedede;
-    width: 1000%;
-    margin-left: -600px;
+    /*width: 1000%;*/
+    /*margin-left: -600px;*/
 }
