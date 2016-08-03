@@ -2,6 +2,21 @@ body {
     margin-top: 60px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: #777;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .navbar-custom {
     position: absolute;
     top: 0;
@@ -42,4 +57,15 @@ body {
     padding: 3px 10px;
     margin-left: 20px;
     font-weight: 300;
+}
+
+.screenshot{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+hr.sep{
+    border-top: 1px dotted #dedede;
+    width: 1000%;
+    margin-left: -600px;
 }

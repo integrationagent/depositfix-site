@@ -21,6 +21,50 @@
     </item>
     
     <item>
+      <title>Features</title>
+      <link>http://depositfix.com/features/</link>
+      <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
+      
+      <guid>http://depositfix.com/features/</guid>
+      <description>&lt;p&gt;Enhanced HubSpot forms with payment fields. Credit card information is passed to payment gateway only and not saved to any other places so you don&#39;t violate any security standards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/screenshots/payment_form.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;h2&gt;Post Payment Updates&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Update HubSpot contact with payment related fields:  &lt;b&gt;Lifecycle Stage, Payment Status, Last Paid Amount, Last Purchased Product, Stripe Transaction Id, Remaining Balance&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Post a note about payment in contact timeline&lt;/p&gt;
+&lt;img src=&#34;http://depositfix.com/img/screenshots/hubspot_note_full.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;p&gt;Run defined HubSpot workflow after the payment&lt;/p&gt;
+&lt;img src=&#34;http://depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;h2&gt;DepositFix Dashboard&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Contact List&lt;/p&gt;
+&lt;img src=&#34;http://depositfix.com/img/screenshots/contacts_br.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;p&gt;Contact View&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/screenshots/contact.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Transaction List&lt;/p&gt;
+&lt;img src=&#34;http://depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Discounts&lt;/p&gt;
+&lt;img src=&#34;http://depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
+&lt;div style=&#34;padding-top: 60px; padding-bottom: 60px; text-align: center&#34;&gt;
+&lt;h1&gt;Pricing: $99/m. No onboarding fee. No transactions limit.&lt;/h1&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Payment Gateways Fee Calculator</title>
       <link>http://depositfix.com/calc/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
