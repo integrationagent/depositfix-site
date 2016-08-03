@@ -39,3 +39,5 @@ title = "Features"
 <hr class="sep"/>
 
 {{< agile_form text="Pricing: $99/m. No onboarding fee. No transactions limit." button="Start Free Trial" >}}
+<p></p>
+<p></p>
