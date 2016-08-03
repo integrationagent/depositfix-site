@@ -52,6 +52,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li>
+                        <a href="http://depositfix.com/features">Features</a>
+                    </li>
+                    
+                    <li>
                         <a href="http://depositfix.com/calc">Fee Calculator</a>
                     </li>
                     
@@ -115,10 +119,55 @@
 
 <p><p>Discounts</p>
 <img src="http://depositfix.com/img/screenshots/discounts.png" class="screenshot" />
-<hr class="sep"/>
-<div style="padding-top: 60px; padding-bottom: 60px; text-align: center">
-<h1>Pricing: $99/m. No onboarding fee. No transactions limit.</h1>
-</div></p>
+<hr class="sep"/></p>
+
+
+
+<form class="form-view" id="agile-form" action="https://intagent.agilecrm.com/formsubmit" method="GET">
+	<input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Free Trial">
+	<input type="hidden" id="_agile_domain" name="_agile_domain" value="intagent">
+	<input type="hidden" id="_agile_api" name="_agile_api" value="j8hsbftilrmafvou3heip5rm13">
+	<input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="http://www.depositfix.com/thankyou">
+	<input type="hidden" id="_agile_form_id_tags" name="tags" value="DepositFix, Trial">
+	<input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5747080974827520">
+	<div class="cta">
+		<h1>Pricing: $99/m. No onboarding fee. No transactions limit.</h1>
+		<div class="buttons">
+			<input id="agilefield-1" name="email" type="email" placeholder="Your Email Address"
+				       class="agile-height-large" required="" />
+			<button class="button">Start Free Trial</button>
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript">
+	(function (a) {
+		var b = a.onload, p = true;
+		if (p) {
+			a.onload = "function" != typeof b ? function () {
+				try {
+					_agile_load_form_fields()
+				} catch (a) {
+				}
+			} : function () {
+				b();
+				try {
+					_agile_load_form_fields()
+				} catch (a) {
+				}
+			}
+		}
+		;
+		a.document.forms["agile-form"].onsubmit = function (a) {
+			a.preventDefault();
+			try {
+				_agile_synch_form_v4()
+			} catch (b) {
+				this.submit()
+			}
+		}
+	})(window);
+</script>
 
                 </div>
             </div>
@@ -201,6 +250,8 @@
     window._fbq.push(['track', '6050731237422', {'value':'0.00','currency':'USD'}]);
     </script>
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6050731237422&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+    <script type="text/javascript" src="https://intagent.agilecrm.com/stats/min/agile-min.js"> </script> <script type="text/javascript" > _agile.set_account('j8hsbftilrmafvou3heip5rm13', 'intagent'); _agile.track_page_view(); </script>
 
 </body>
 
