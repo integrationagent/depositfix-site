@@ -51,17 +51,17 @@
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;p&gt;Transaction List&lt;/p&gt;
+&lt;p&gt;Transaction List&lt;/p&gt;
 &lt;img src=&#34;http://depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
-&lt;hr class=&#34;sep&#34;/&gt;&lt;/p&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
 
-&lt;p&gt;&lt;p&gt;Discounts&lt;/p&gt;
+&lt;p&gt;Discounts&lt;/p&gt;
 &lt;img src=&#34;http://depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
-&lt;hr class=&#34;sep&#34;/&gt;&lt;/p&gt;
+&lt;hr class=&#34;sep&#34;/&gt;
 
 
 
-&lt;form class=&#34;form-view&#34; id=&#34;agile-form&#34; action=&#34;https://intagent.agilecrm.com/formsubmit&#34; method=&#34;GET&#34;&gt;
+&lt;form class=&#34;form-view&#34; id=&#34;agile-form&#34; action=&#34;https://intagent.agilecrm.com/formsubmit&#34; method=&#34;GET&#34; style=&#34;margin-bottom: 60px&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_form_name&#34; name=&#34;_agile_form_name&#34; value=&#34;Free Trial&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_domain&#34; name=&#34;_agile_domain&#34; value=&#34;intagent&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_api&#34; name=&#34;_agile_api&#34; value=&#34;j8hsbftilrmafvou3heip5rm13&#34;&gt;
@@ -106,6 +106,8 @@
 		}
 	})(window);
 &lt;/script&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 </description>
     </item>
     
