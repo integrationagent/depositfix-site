@@ -32,6 +32,8 @@ It should be a standard workflow.
 <img src="/img/screenshots/workflows.png" class="screenshot"/> 
  
 ### 3. DepositFix Settings (required)
+Now, let's setup your DepositFix account. You can login here:
+<a href="https://depositfix.intagent.io/" target="_blank">DepositFix</a>
 
 <img src="/img/setup/integrations_menu.png" class="screenshot"/>
 
