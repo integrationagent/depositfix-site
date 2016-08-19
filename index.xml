@@ -57,6 +57,9 @@
 
 &lt;h3 id=&#34;3-depositfix-settings-required&#34;&gt;3. DepositFix Settings (required)&lt;/h3&gt;
 
+&lt;p&gt;Now, let&amp;rsquo;s setup your DepositFix account. You can login here:
+&lt;a href=&#34;https://depositfix.intagent.io/&#34; target=&#34;_blank&#34;&gt;DepositFix&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/integrations_menu.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;First, you&amp;rsquo;ll need to add HubSpot settings. HubSpot API Key and HubSpot Portal are required.&lt;/p&gt;
