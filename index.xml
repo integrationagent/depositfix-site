@@ -21,6 +21,63 @@
     </item>
     
     <item>
+      <title>DepositFix Setup</title>
+      <link>http://depositfix.com/setup/</link>
+      <pubDate>Thu, 18 Aug 2016 15:09:13 -0500</pubDate>
+      
+      <guid>http://depositfix.com/setup/</guid>
+      <description>
+
+&lt;style&gt;
+.hs_field{
+    color: #aaa;
+}
+&lt;/style&gt;
+
+&lt;h3 id=&#34;1-create-hubspot-fields-required&#34;&gt;1. Create HubSpot Fields (required)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Last Paid Amount&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(last_paid_amount: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Last Payment Result Text&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(last_payment_result_text: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Last Product Purchased&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(last_product_purchased: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Payment Status&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(paymentstatus: Dropdown select. Values: Paid, Failed, Pending)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Reference Number&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(reference_number: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Remaining Balance&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(remaining_balance: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Stripe Customer Id&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(stripecustomerid: Single Line Text)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/hubspot_fields.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-add-workflows-for-successfull-and-failed-transactions-optional&#34;&gt;2. Add workflows for successfull and failed transactions (optional)&lt;/h3&gt;
+
+&lt;p&gt;DepositFix can run defined workflows after the charges. Workflows can be used for payment receipts, notifications or any other automated procesess.&lt;/p&gt;
+
+&lt;p&gt;It should be a standard workflow.
+&lt;img src=&#34;http://depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-depositfix-settings-required&#34;&gt;3. DepositFix Settings (required)&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/integrations_menu.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;First, you&amp;rsquo;ll need to add HubSpot settings. HubSpot API Key and HubSpot Portal are required.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/hubspot_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Specify Stripe settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/stripe_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy generated code to your page and fill out the placeholders.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/stripe_form.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;To get form Id login to HubSpot, navigate to specific form and copy Id from URL:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/form-installation/form_id.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Features</title>
       <link>http://depositfix.com/features/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
