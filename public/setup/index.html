@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DepositFix Setup</title>
+
+    
+
+    
+    <link href="http://depositfix.com/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="http://depositfix.com/css/clean-blog.min.css" rel="stylesheet">
+    <link href="http://depositfix.com/css/depositfix.css" rel="stylesheet">
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    
+    
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://depositfix.com">DepositFix</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse nav-nav" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="http://depositfix.com/features">Features</a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://depositfix.com/calc">Fee Calculator</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+     
+     
+    
+    
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>DepositFix Setup</h1>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                  
+
+<style>
+.hs_field{
+    color: #aaa;
+}
+</style>
+
+<h3 id="1-create-hubspot-fields-required">1. Create HubSpot Fields (required)</h3>
+
+<ul>
+<li><b>Last Paid Amount</b> <span class="hs_field">(last_paid_amount: Single Line Text)</span></li>
+<li><b>Last Payment Result Text</b> <span class="hs_field">(last_payment_result_text: Single Line Text)</span></li>
+<li><b>Last Product Purchased</b> <span class="hs_field">(last_product_purchased: Single Line Text)</span></li>
+<li><b>Payment Status</b> <span class="hs_field">(paymentstatus: Dropdown select. Values: Paid, Failed, Pending)</span></li>
+<li><b>Reference Number</b> <span class="hs_field">(reference_number: Single Line Text)</span></li>
+<li><b>Remaining Balance</b> <span class="hs_field">(remaining_balance: Single Line Text)</span></li>
+<li><b>Stripe Customer Id</b> <span class="hs_field">(stripecustomerid: Single Line Text)</span></li>
+</ul>
+
+<p><img src="http://depositfix.com/img/setup/hubspot_fields.png" class="screenshot"/></p>
+
+<h3 id="2-add-workflows-for-successfull-and-failed-transactions-optional">2. Add workflows for successfull and failed transactions (optional)</h3>
+
+<p>DepositFix can run defined workflows after the charges. Workflows can be used for payment receipts, notifications or any other automated procesess.</p>
+
+<p>It should be a standard workflow.
+<img src="http://depositfix.com/img/screenshots/workflows.png" class="screenshot"/></p>
+
+<h3 id="3-depositfix-settings-required">3. DepositFix Settings (required)</h3>
+
+<p><img src="http://depositfix.com/img/setup/integrations_menu.png" class="screenshot"/></p>
+
+<p>First, you&rsquo;ll need to add HubSpot settings. HubSpot API Key and HubSpot Portal are required.</p>
+
+<p><img src="http://depositfix.com/img/setup/hubspot_settings.png" class="screenshot"/></p>
+
+<p>Specify Stripe settings.</p>
+
+<p><img src="http://depositfix.com/img/setup/stripe_settings.png" class="screenshot"/></p>
+
+<p>Copy generated code to your page and fill out the placeholders.</p>
+
+<p><img src="http://depositfix.com/img/setup/stripe_form.png" class="screenshot"/></p>
+
+<p>To get form Id login to HubSpot, navigate to specific form and copy Id from URL:</p>
+
+<p><img src="https://integrationagent.com/img/form-installation/form_id.png" class="screenshot"/></p>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <a href="http://integrationagent.com/">Integration Agent &copy; 2016</a>
+    </footer>
+    
+    
+        
+            
+                
+                  
+                    
+                      
+                          
+                          
+                          
+                          
+                        
+                      
+                    
+                    
+                  
+                  
+                
+            
+        
+    
+
+    
+    <script src="http://depositfix.com/js/jquery.min.js"></script>
+
+    
+    <script src="http://depositfix.com/js/bootstrap.min.js"></script>
+
+    
+    <script src="http://depositfix.com/js/clean-blog.js"></script>
+
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-7712728-16', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+    <script type="text/javascript">
+    var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(100937438);
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//static.getclicky.com/js';
+      ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+    })();
+    </script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100937438ns.gif" /></p></noscript>
+
+
+    
+    <script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+    }
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', '6050731237422', {'value':'0.00','currency':'USD'}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6050731237422&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+    <script type="text/javascript" src="https://intagent.agilecrm.com/stats/min/agile-min.js"> </script> <script type="text/javascript" > _agile.set_account('j8hsbftilrmafvou3heip5rm13', 'intagent'); _agile.track_page_view(); </script>
+
+</body>
+
+</html>
+
