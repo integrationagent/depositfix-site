@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Payment Solution for HubSpot</title>
-    <link>http://depositfix.com/</link>
+    <link>http://depositfix.com/index.xml</link>
     <description>Recent content on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -119,14 +119,12 @@
 &lt;img src=&#34;http://depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 
-
-
 &lt;form class=&#34;form-view&#34; id=&#34;agile-form&#34; action=&#34;https://intagent.agilecrm.com/formsubmit&#34; method=&#34;GET&#34; style=&#34;margin-bottom: 60px&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_form_name&#34; name=&#34;_agile_form_name&#34; value=&#34;Free Trial&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_domain&#34; name=&#34;_agile_domain&#34; value=&#34;intagent&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_api&#34; name=&#34;_agile_api&#34; value=&#34;j8hsbftilrmafvou3heip5rm13&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_redirect_url&#34; name=&#34;_agile_redirect_url&#34; value=&#34;http://www.depositfix.com/thankyou&#34;&gt;
-	&lt;input type=&#34;hidden&#34; id=&#34;_agile_form_id_tags&#34; name=&#34;tags&#34; value=&#34;DepositFix, Trial&#34;&gt;
+	&lt;input type=&#34;hidden&#34; id=&#34;_agile_form_id_tags&#34; name=&#34;tags&#34; value=&#34;DepositFix, Landing Page&#34;&gt;
 	&lt;input type=&#34;hidden&#34; id=&#34;_agile_form_id&#34; name=&#34;_agile_form_id&#34; value=&#34;5747080974827520&#34;&gt;
 	&lt;div class=&#34;cta&#34;&gt;
 		&lt;h1&gt;Try it for free&lt;/h1&gt;
