@@ -21,6 +21,27 @@
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>http://depositfix.com/privacy/</link>
+      <pubDate>Thu, 23 Feb 2017 14:49:22 -0600</pubDate>
+      
+      <guid>http://depositfix.com/privacy/</guid>
+      <description>&lt;style&gt;
+    #iubenda_policy .iub_content{
+        padding: 0px;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;a href=&#34;//www.iubenda.com/privacy-policy/8050679&#34; class=&#34;iubenda-white no-brand iub-body-embed iubenda-embed&#34;
+   title=&#34;Privacy Policy&#34;&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function (w,d) {var loader = function () {var s = d.createElement(&#34;script&#34;), tag = d.getElementsByTagName(&#34;script&#34;)[0]; s.src = &#34;//cdn.iubenda.com/iubenda.js&#34;; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener(&#34;load&#34;, loader, false);}else if(w.attachEvent){w.attachEvent(&#34;onload&#34;, loader);}else{w.onload = loader;}})(window, document);
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DepositFix Setup</title>
       <link>http://depositfix.com/setup/</link>
       <pubDate>Thu, 18 Aug 2016 15:09:13 -0500</pubDate>
