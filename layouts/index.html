@@ -11,5 +11,132 @@
 	}
 </style>
 {{ partial "header.html" .}}
-<iframe src="http://lp.depositfix.com/"></iframe>
+
+<div class="jumbotron heading-plato">
+    <div class="container">
+        <row>
+            <div class="col-md-8">
+                <h1>HubSpot + Stripe</h1>
+                <h3>Accept payments using your HubSpot forms and
+                    run marketing campaigns based on purchases.</h3>
+
+                <p>
+                    <a class="demoBtn" href="https://www.youtube.com/watch?v=73RlllWBGSk&t">
+                        <button type="button" class="btn btn-warning btn-lg">Watch a Demo</button>
+                    </a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="/img/hubspot_stripe.png" alt="">
+            </div>
+        </row>
+
+    </div>
+</div>
+
+<div class="gateways">
+    <div class="container">
+        <row>
+            <div class="col-md-12">
+                <h3>Also works with PayPal</h3>
+            </div>
+        </row>
+    </div>
+</div>
+
+<div class="container features">
+    <h1>How It Works</h1>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <h2>Integrate Payments with HubSpot Forms</h2>
+            DepositFix dynamically ads payment fields to your HubSpot forms.
+            <br><br>
+            Payment information goes to Stripe and other user data is sent to HubSpot at a single click.
+        </div>
+        <div class="col-md-6">
+            <img src="/img/screenshots/hubspot_payment_form.png" style="width: 100%"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <img src="/img/screenshots/contact_view.png" class="screenshot" />
+        </div>
+        <div class="col-md-6">
+            <h2>Automatically Update Contact Fields</h2>
+            DepositFix adds new contact fields to HubSpot, so you can search and segment your contacts
+            by a product they purchased, sales date, transaction amount and others.
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <h2>See Transations in the Timeline</h2>
+            Stay informed about any payment events with the help of automatic timeline updates.
+        </div>
+        <div class="col-md-6">
+            <img src="/img/screenshots/timeline1.png" class="screenshot" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+            <img src="/img/screenshots/workflows.png" class="screenshot" />
+        </div>
+        <div class="col-md-6">
+            <h2>Setup Post-Payment Workflows</h2>
+            Send personalized emails after the payment: receipts, cross-sells/upsells,
+            post-purchase follow ups, product review requests, etc.
+        </div>
+    </div>
+</div>
+
+<div class="faq">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="post-heading">
+                <h1>FAQ</h1>
+                <div class="qa-item">
+                    <div class="question">What happens to the payment data if I cancel DepositFix subscription?</div>
+                    <div class="answer">All of your data stays in HubSpot, you'll still be able to search and segment by the payment history.</div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What about security?</div>
+                    <div class="answer">We provide bank level security so you don't have to worry about it – full SSL encryption and PCI compliance.
+                        <br>
+                        No credit card information is stored in HubSpot or DepositFix.
+                    </div>
+                </div>
+                <div class="qa-item">
+                    <div class="question">What if I need a custom payment form design?</div>
+                    <div class="answer">Just contact us and we will make it happen.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="pricing">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="post-heading">
+                <h1>Pricing: $50/month</h1>
+                <p>Includes unlimited transactions, unlimited forms and multi currency support</p>
+
+                <a href="https://app.depositfix.com?ref=lp">
+                    <button type="button" class="btn btn-danger btn-lg">Create Your Payment Form </button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 {{ partial "footer.html" .}}
+
+<link rel="stylesheet" type="text/css" href="/css/YouTubePopUp.css">
+<script type="text/javascript" src="/js/YouTubePopUp.jquery.js"></script>
+<script>
+    jQuery(".demoBtn").YouTubePopUp();
+</script>

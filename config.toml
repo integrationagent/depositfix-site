@@ -17,12 +17,8 @@ copyright = "Integration Agent 2016"
   Ganalytics = "UA-7712728-16"
 
 [[menu.main]]
-  name = "Features"
-  url = "/features"
+  name = "Login"
+  url = "https://app.depositfix.com?ref=lp"
   weight = -200
 
-[[menu.main]]
-  name = "Fee Calculator"
-  url = "/calc"
-  weight = -180
 
