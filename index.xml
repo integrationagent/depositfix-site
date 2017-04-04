@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Payment Solution for HubSpot</title>
-    <link>http://depositfix.com/index.xml</link>
+    <link>https://www.depositfix.com/index.xml</link>
     <description>Recent content on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
     <lastBuildDate>Thu, 16 Jun 2016 11:05:39 -0500</lastBuildDate>
-    <atom:link href="http://depositfix.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.depositfix.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>contact</title>
-      <link>http://depositfix.com/contact/</link>
+      <link>https://www.depositfix.com/contact/</link>
       <pubDate>Thu, 16 Jun 2016 11:05:39 -0500</pubDate>
       
-      <guid>http://depositfix.com/contact/</guid>
+      <guid>https://www.depositfix.com/contact/</guid>
       <description>&lt;p&gt;Contacts&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://depositfix.com/privacy/</link>
+      <link>https://www.depositfix.com/privacy/</link>
       <pubDate>Thu, 23 Feb 2017 14:49:22 -0600</pubDate>
       
-      <guid>http://depositfix.com/privacy/</guid>
+      <guid>https://www.depositfix.com/privacy/</guid>
       <description>&lt;style&gt;
     #iubenda_policy .iub_content{
         padding: 0px;
@@ -43,10 +43,10 @@
     
     <item>
       <title>DepositFix Setup</title>
-      <link>http://depositfix.com/setup/</link>
+      <link>https://www.depositfix.com/setup/</link>
       <pubDate>Thu, 18 Aug 2016 15:09:13 -0500</pubDate>
       
-      <guid>http://depositfix.com/setup/</guid>
+      <guid>https://www.depositfix.com/setup/</guid>
       <description>
 
 &lt;style&gt;
@@ -67,33 +67,33 @@
 &lt;li&gt;&lt;b&gt;Stripe Customer Id&lt;/b&gt; &lt;span class=&#34;hs_field&#34;&gt;(stripecustomerid: Single Line Text)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/hubspot_fields.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/setup/hubspot_fields.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;2-add-workflows-for-successfull-and-failed-transactions-optional&#34;&gt;2. Add workflows for successfull and failed transactions (optional)&lt;/h3&gt;
 
 &lt;p&gt;DepositFix can run defined workflows after the charges. Workflows can be used for payment receipts, notifications or any other automated procesess.&lt;/p&gt;
 
 &lt;p&gt;It should be a standard workflow.
-&lt;img src=&#34;http://depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;3-depositfix-settings-required&#34;&gt;3. DepositFix Settings (required)&lt;/h3&gt;
 
 &lt;p&gt;Now, let&amp;rsquo;s setup your DepositFix account. You can login here:
 &lt;a href=&#34;https://depositfix.intagent.io/&#34; target=&#34;_blank&#34;&gt;DepositFix&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/integrations_menu.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/setup/integrations_menu.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;First, you&amp;rsquo;ll need to add HubSpot settings. HubSpot API Key and HubSpot Portal are required.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/hubspot_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/setup/hubspot_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Specify Stripe settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/stripe_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/setup/stripe_settings.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Copy generated code to your page and fill out the placeholders.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/setup/stripe_form.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/setup/stripe_form.png&#34; class=&#34;screenshot&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;To get form Id login to HubSpot, navigate to specific form and copy Id from URL:&lt;/p&gt;
 
@@ -103,41 +103,41 @@
     
     <item>
       <title>Features</title>
-      <link>http://depositfix.com/features/</link>
+      <link>https://www.depositfix.com/features/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>http://depositfix.com/features/</guid>
+      <guid>https://www.depositfix.com/features/</guid>
       <description>&lt;p&gt;Enhanced HubSpot forms with payment fields. Credit card information is passed to payment gateway only and not saved to any other places so you don&#39;t violate any security standards.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/screenshots/payment_form.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/screenshots/payment_form.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;h2&gt;Post Payment Updates&lt;/h2&gt;&lt;/p&gt;
 
 &lt;p&gt;Update HubSpot contact with payment related fields:  &lt;b&gt;Lifecycle Stage, Payment Status, Last Paid Amount, Last Purchased Product, Stripe Transaction Id, Remaining Balance&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Post a note about payment in contact timeline&lt;/p&gt;
-&lt;img src=&#34;http://depositfix.com/img/screenshots/hubspot_note_full.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/hubspot_note_full.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;Run defined HubSpot workflow after the payment&lt;/p&gt;
-&lt;img src=&#34;http://depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;h2&gt;DepositFix Dashboard&lt;/h2&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Contact List&lt;/p&gt;
-&lt;img src=&#34;http://depositfix.com/img/screenshots/contacts_br.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/contacts_br.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;Contact View&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://depositfix.com/img/screenshots/contact.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/screenshots/contact.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;Transaction List&lt;/p&gt;
-&lt;img src=&#34;http://depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 
 &lt;p&gt;Discounts&lt;/p&gt;
-&lt;img src=&#34;http://depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 
 &lt;form class=&#34;form-view&#34; id=&#34;agile-form&#34; action=&#34;https://intagent.agilecrm.com/formsubmit&#34; method=&#34;GET&#34; style=&#34;margin-bottom: 60px&#34;&gt;
@@ -192,15 +192,15 @@
     
     <item>
       <title>Payment Gateways Fee Calculator</title>
-      <link>http://depositfix.com/calc/</link>
+      <link>https://www.depositfix.com/calc/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>http://depositfix.com/calc/</guid>
+      <guid>https://www.depositfix.com/calc/</guid>
       <description>&lt;p&gt;There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We&amp;rsquo;ve created a fee calculator to help you to choose the right service.&lt;/p&gt;
 
 &lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;http://depositfix.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://depositfix.com/css/JSCalc.css&#34; media=&#34;screen&#34;/&gt;&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.depositfix.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://www.depositfix.com/css/JSCalc.css&#34; media=&#34;screen&#34;/&gt;&lt;/p&gt;
 
 &lt;div ng-app=&#34;fees&#34; ng-controller=&#34;feesCtrl&#34; class=&#34;calc&#34;&gt;
     &lt;form&gt;
@@ -277,8 +277,8 @@
 &lt;div class=&#34;cta&#34;&gt;
 	Looking for a service to accept payments within HubSpot?
 
-		&lt;a href=&#39;http://depositfix.com/&#39;&gt;
-			&lt;button class=&#34;button&#34; href=&#34;http://depositfix.com/&#34;&gt;Try DepositFix&lt;/button&gt;
+		&lt;a href=&#39;https://www.depositfix.com/&#39;&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Try DepositFix&lt;/button&gt;
 		&lt;/a&gt;
 &lt;/div&gt;
 
@@ -287,10 +287,10 @@
     
     <item>
       <title>Thank you, you are awesome! We will contact you soon.</title>
-      <link>http://depositfix.com/thankyou/</link>
+      <link>https://www.depositfix.com/thankyou/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>http://depositfix.com/thankyou/</guid>
+      <guid>https://www.depositfix.com/thankyou/</guid>
       <description>&lt;h2&gt;&lt;/h2&gt;
 </description>
     </item>
