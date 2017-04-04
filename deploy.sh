@@ -5,7 +5,7 @@ export TZ=":America/New_York"
 now=$(date +"%Y-%m-%d %H:%M:%S")
 
 # Build the site
-cd /Users/dlunev/projects/integrationagent/depositfix-site
+cd /Users/dlunev/projects/ia/depositfix-site
 hugo
 
 # Push the source to Github (source branch)
