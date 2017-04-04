@@ -11,11 +11,11 @@ hugo
 # Push the source to Github (source branch)
 git add .
 git commit -m "Site update: $now"
-git push origin master
+git push -f origin master
 
 # Push the compiled HTML to Github (master branch)
 yes | cp -rf public/* deploy
 cd deploy
 git add .
 git commit -m "Site update: $now"
-git push origin gh-pages
+git push -f origin gh-pages
