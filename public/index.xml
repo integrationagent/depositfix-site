@@ -21,14 +21,13 @@
     </item>
     
     <item>
-      <title>Payment</title>
+      <title>DepositFix Payment</title>
       <link>https://www.depositfix.com/payment/</link>
       <pubDate>Tue, 04 Apr 2017 10:35:19 -0500</pubDate>
       
       <guid>https://www.depositfix.com/payment/</guid>
-      <description>&lt;p&gt;&lt;h2&gt;DepositFix Payment&lt;/h2&gt;
-&lt;script src=&#34;https://depositfix.s3.amazonaws.com/depositfixform.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://www.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+      <description>&lt;script src=&#34;https://depositfix.s3.amazonaws.com/depositfixform.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
