@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c84c269-f911-464b-bf64-d3f21eef4c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/payment.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/payment.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/404.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy" afterPath="$PROJECT_DIR$/deploy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog" afterPath="$PROJECT_DIR$/themes/startbootstrap-clean-blog" />
@@ -42,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="91" column="61" lean-forward="true" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -56,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -80,7 +78,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="-543">
-                <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -106,7 +104,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="1801">
-                <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+                <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -114,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="payment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/payment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -173,7 +171,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/startbootstrap-clean-blog" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -215,11 +213,11 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/config.toml" />
-        <option value="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/content/payment.md" />
         <option value="$PROJECT_DIR$/content/thankyou.md" />
         <option value="$PROJECT_DIR$/static/js/payment.js" />
+        <option value="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html" />
       </list>
     </option>
   </component>
@@ -776,7 +774,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96184000" />
+    <option name="totallyTimeSpent" value="96246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -1171,15 +1169,7 @@
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1188,7 +1178,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-543">
-            <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1220,7 +1210,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1801">
-            <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1263,6 +1253,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="91" column="61" lean-forward="true" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
           <folding />
         </state>
       </provider>
