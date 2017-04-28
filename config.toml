@@ -21,4 +21,9 @@ copyright = "Integration Agent 2016"
   url = "https://app.depositfix.com?ref=lp"
   weight = -200
 
+[[menu.main]]
+  name = "Create Account"
+  url = "https://app.depositfix.com?ref=lp"
+  weight = -180
+
 
