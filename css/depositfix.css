@@ -179,4 +179,8 @@ hr.sep{
     text-align: center;
 }
 
-
+.trial-text{
+    color: #ddd;
+    font-size: 16px;
+    margin-top: 10px;
+}
