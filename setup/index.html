@@ -61,7 +61,11 @@
                     </li>
                     
                     <li>
-                        <a href="https://app.depositfix.com?ref=lp">Create Account</a>
+                        <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts&#43;timeline&#43;forms&#43;content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation">Create Account</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.depositfix.com/setup">Setup Instructions</a>
                     </li>
                     
                   </ul>
@@ -96,54 +100,34 @@
                   
 
 <style>
-.hs_field{
-    color: #aaa;
+a.helpdesk-item{
+    display: block;
 }
 </style>
 
-<h3 id="1-create-hubspot-fields-required">1. Create HubSpot Fields (required)</h3>
+<p>DepositFix setup is mostly automatic, but following resources will give you a good understanding of installation process and the form settings.</p>
+
+<h3 id="setup-process">Setup Process</h3>
+
+<p><iframe width="649" height="360" src="https://www.youtube.com/embed/73RlllWBGSk" frameborder="0" allowfullscreen></iframe>
+</p>
+
+<h3 id="form-settings">Form Settings</h3>
 
 <ul>
-<li><b>Last Paid Amount</b> <span class="hs_field">(last_paid_amount: Single Line Text)</span></li>
-<li><b>Last Payment Result Text</b> <span class="hs_field">(last_payment_result_text: Single Line Text)</span></li>
-<li><b>Last Product Purchased</b> <span class="hs_field">(last_product_purchased: Single Line Text)</span></li>
-<li><b>Payment Status</b> <span class="hs_field">(paymentstatus: Dropdown select. Values: Paid, Failed, Pending)</span></li>
-<li><b>Reference Number</b> <span class="hs_field">(reference_number: Single Line Text)</span></li>
-<li><b>Remaining Balance</b> <span class="hs_field">(remaining_balance: Single Line Text)</span></li>
-<li><b>Stripe Customer Id</b> <span class="hs_field">(stripecustomerid: Single Line Text)</span></li>
+    <li>
+        <a href="https://depositfix.freshdesk.com/support/solutions/articles/26000013826-how-to-inject-payment-form-to-your-website" class="helpdesk-item">How to inject payment form to your website</a>
+    </li>
+    <li>
+        <a href="https://depositfix.freshdesk.com/support/solutions/articles/26000018217-how-to-accept-paypal-payments" class="helpdesk-item">How to accept PayPal payments</a>
+    </li>
+    <li>
+        <a href="https://depositfix.freshdesk.com/support/solutions/articles/26000018762-subscriptions" class="helpdesk-item">Subscriptions</a>
+    </li>
+    <li>
+        <a href="https://depositfix.freshdesk.com/support/solutions/articles/26000018763-dynamic-amount" class="helpdesk-item">Dynamic Amount</a>
+    </li>
 </ul>
-
-<p><img src="https://www.depositfix.com/img/setup/hubspot_fields.png" class="screenshot"/></p>
-
-<h3 id="2-add-workflows-for-successfull-and-failed-transactions-optional">2. Add workflows for successfull and failed transactions (optional)</h3>
-
-<p>DepositFix can run defined workflows after the charges. Workflows can be used for payment receipts, notifications or any other automated procesess.</p>
-
-<p>It should be a standard workflow.
-<img src="https://www.depositfix.com/img/screenshots/workflows.png" class="screenshot"/></p>
-
-<h3 id="3-depositfix-settings-required">3. DepositFix Settings (required)</h3>
-
-<p>Now, let&rsquo;s setup your DepositFix account. You can login here:
-<a href="https://depositfix.intagent.io/" target="_blank">DepositFix</a></p>
-
-<p><img src="https://www.depositfix.com/img/setup/integrations_menu.png" class="screenshot"/></p>
-
-<p>First, you&rsquo;ll need to add HubSpot settings. HubSpot API Key and HubSpot Portal are required.</p>
-
-<p><img src="https://www.depositfix.com/img/setup/hubspot_settings.png" class="screenshot"/></p>
-
-<p>Specify Stripe settings.</p>
-
-<p><img src="https://www.depositfix.com/img/setup/stripe_settings.png" class="screenshot"/></p>
-
-<p>Copy generated code to your page and fill out the placeholders.</p>
-
-<p><img src="https://www.depositfix.com/img/setup/stripe_form.png" class="screenshot"/></p>
-
-<p>To get form Id login to HubSpot, navigate to specific form and copy Id from URL:</p>
-
-<p><img src="https://integrationagent.com/img/form-installation/form_id.png" class="screenshot"/></p>
 
                 </div>
             </div>
