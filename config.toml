@@ -23,7 +23,12 @@ copyright = "Integration Agent 2016"
 
 [[menu.main]]
   name = "Create Account"
-  url = "https://app.depositfix.com?ref=lp"
+  url = "https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation"
+  weight = -180
+
+[[menu.main]]
+  name = "Setup Instructions"
+  url = "/setup"
   weight = -180
 
 
