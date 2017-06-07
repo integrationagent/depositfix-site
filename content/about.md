@@ -12,7 +12,7 @@ title = "About Us"
         <img src="/img/headshot-title.png">
     </div>
     <div class="col-md-8">
-       DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses to e-commerce and marketing using HubSpot.
+       DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses connect e-commerce and marketing using HubSpot.
        <br><br>
        Denis is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
     </div>
@@ -26,7 +26,7 @@ title = "About Us"
     </div>
     <div class="col-md-8">
        <br>
-       Yaroslav Saakyan is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
+       Yaroslav is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
     </div>
 </div>
 
