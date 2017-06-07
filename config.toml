@@ -27,8 +27,13 @@ copyright = "Integration Agent 2016"
   weight = -180
 
 [[menu.main]]
+  name = "About Us"
+  url = "/about"
+  weight = -160
+
+[[menu.main]]
   name = "Setup Instructions"
   url = "/setup"
-  weight = -180
+  weight = -140
 
 

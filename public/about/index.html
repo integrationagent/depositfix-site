@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="google-site-verification" content="8VRSKoT1h1-IwFeBxwFruohSNCQ26irCwmBYNoZrg4Y" />
     <link rel="shortcut icon" href="https://www.depositfix.com/img/favicon.png">
-    <title>Payment Gateways Fee Calculator</title>
+    <title>About Us</title>
 
     
 
@@ -89,7 +89,7 @@
         <div class="row">
            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
              <div class="post-heading">
-               <h1>Payment Gateways Fee Calculator</h1>
+               <h1>About Us</h1>
              </div>
            </div>
         </div>
@@ -101,92 +101,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                  <p>There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We&rsquo;ve created a fee calculator to help you to choose the right service.</p>
+                  <hr />
 
-<p><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script type="text/javascript" src="https://www.depositfix.com/js/JSCalc.js"></script>
-<link rel="stylesheet" type="text/css" href="https://www.depositfix.com/css/JSCalc.css" media="screen"/></p>
-
-<div ng-app="fees" ng-controller="feesCtrl" class="calc">
-    <form>
-        <div>Average monthly revenue ($)
-            <div ng-form name="revenue">
-                <input class="Input" name="monthlyRevenue" ng-model="monthlyRevenueToCount" required>
-                <span ng-show="revenue.monthlyRevenue.$touched && revenue.monthlyRevenue.$invalid">Please enter the value</span>
-            </div>
-            <div>Average number of transactions</div>
-            <div ng-form name="transactions">
-                <input class="Input" name="numOfTransactions" ng-model="numOfTransactionsToCount"
-                       required>
-                <span ng-show="transactions.numOfTransactions.$touched && transactions.numOfTransactions.$invalid">Please enter the value</span>
-            </div>
-            <div>Average number of chargebacks</div>
-            <div ng-form name="chargebacks">
-                <input class="Input" name="numOfChargebacks" ng-model="numOfChargebacksToCount" required>
-                <span ng-show="chargebacks.numOfChargebacks.$touched && chargebacks.numofChargebacks.$invalid">Please enter the value</span>
-            </div>
-            <div>
-                <button type="submit" class="Button" ng-click="calculateFees(); clicked=true">Calculate</button>
-            </div>
-        </div>
-    </form>
-    <div ng-show="clicked" class="Table">
-        <div class="Heading">
-            <div class="Cell">
-                Service
-            </div>
-            <div class="Cell">
-                Transaction fee
-            </div>
-            <div class="Cell">
-                Monthly fee
-            </div>
-            <div class="Cell">
-                Other
-            </div>
-            <div class="Cell">
-                Chargebacks
-            </div>
-            <div class="Cell">
-                Total
-            </div>
-        </div>
-        <div class="Row" ng-repeat="fee in fees">
-            <div class="Cell">
-                <a ng-href="{{fee.link}}">{{fee.gateway}}</a>
-            </div>
-            <div class="Cell">
-                ${{fee.transactional}}
-            </div>
-            <div class="Cell">
-                ${{fee.monthly}}
-            </div>
-            <div class="Cell">
-                <div ng-if="!fee.other.length">$0</div>
-                <div ng-if="fee.other.length">
-                    <div ng-repeat="other in fee.other">
-                        <div ng-repeat='(key,val) in other'>${{val + ' (' + key + ') '}}</div>
-                    </div>
-                </div>
-            </div>
-            <div class="Cell">
-                ${{fee.totalChargeback}}
-            </div>
-            <div class="Cell">
-                ${{fee.total}}
-            </div>
-        </div>
+<div class="row">
+    <div class="col-md-2">
+        <img src="https://www.depositfix.com/img/headshot-title.png">
+    </div>
+    <div class="col-md-8">
+       DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses to e-commerce and marketing using HubSpot.
+       <br><br>
+       Denis is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
     </div>
 </div>
 
-<div class="cta">
-	Looking for a service to accept payments within HubSpot?
+<hr />
 
-		<a href='https://www.depositfix.com/'>
-			<button class="button" href="https://www.depositfix.com/">Try DepositFix</button>
-		</a>
+<div class="row">
+    <div class="col-md-2">
+        <img src="https://www.depositfix.com/img/yar.png">
+    </div>
+    <div class="col-md-8">
+       <br>
+       Yaroslav Saakyan is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
+    </div>
 </div>
-
 
                 </div>
             </div>

@@ -21,6 +21,101 @@
     </item>
     
     <item>
+      <title>About Us</title>
+      <link>https://www.depositfix.com/about/</link>
+      <pubDate>Fri, 16 Jun 2017 10:35:19 -0500</pubDate>
+      
+      <guid>https://www.depositfix.com/about/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-2&#34;&gt;
+        &lt;img src=&#34;https://www.depositfix.com/img/headshot-title.png&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-8&#34;&gt;
+       DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses to e-commerce and marketing using HubSpot.
+       &lt;br&gt;&lt;br&gt;
+       Denis is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-2&#34;&gt;
+        &lt;img src=&#34;https://www.depositfix.com/img/yar.png&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-8&#34;&gt;
+       &lt;br&gt;
+       Yaroslav Saakyan is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Security Information</title>
+      <link>https://www.depositfix.com/security/</link>
+      <pubDate>Fri, 16 Jun 2017 10:35:19 -0500</pubDate>
+      
+      <guid>https://www.depositfix.com/security/</guid>
+      <description>&lt;p&gt;Inside DepositFix we keep data about contacts (name, email, contact id from Stripe) and transactions (date, amount, product name, transaction id from Stripe). This information is kept to help you segment the purchases.
+Credit card information (number, cvc, exp date) never sent to our servers, we use stripe tokens to charge the cards and they are not stored in our database.&lt;/p&gt;
+
+&lt;p&gt;Since we don’t send or store information about the credit cards on our servers, DepositFix doesn&amp;rsquo;t have to comply with the full &lt;a href=&#34;https://www.pcisecuritystandards.org/pci_security/why_security_matters&#34;&gt;PCI spec&lt;/a&gt;.
+However, the whole process is PCI compliant, because Stripe or PayPal cover most of the requirements. On our side we use SSL encryption everywhere (Browser -&amp;gt; Stripe -&amp;gt; DepositFix -&amp;gt; HubSpot). The database only allows connections from the application itself and blocks everything else.&lt;/p&gt;
+
+&lt;p&gt;DepositFix is backed by &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;Amazon AWS&lt;/a&gt; which is proven and secure infrastructure provider:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon RDS (Postgres) as storage&lt;/li&gt;
+&lt;li&gt;Amazon S3 as CDN for CSS and JS files&lt;/li&gt;
+&lt;li&gt;CloudFlare as DNS provider&lt;/li&gt;
+&lt;li&gt;The application is deployed as docker containers with auto recovery mode.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;If HubSpot operate with 2 (or more) availability zones, then what about DepositFix?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;DepositFix is available in 2 availability zones, if one of the Amazon&amp;rsquo;s data centers goes down, then we still be able to accept payments from your clients&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;How are data backups managed?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Database backups are automatically created every day and kept for 7 days.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;What framework/language is used to implement DepositFix?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Backend: &lt;a href=&#34;http://projects.spring.io/spring-boot/&#34;&gt;Java + SpringBoot&lt;/a&gt; + &lt;a href=&#34;https://www.postgresql.org/&#34;&gt;PostgreSQL&lt;/a&gt;. Frontend: &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJs&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;What access controls are there around the contact &amp;amp; transaction data does DepositFix store and is the live environment distinct to the dev/staging environment?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Production and test environments are separated and run in different virtual networks&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;What structures are in place to prevent &amp;lsquo;leakage&amp;rsquo;/&amp;lsquo;cross-talk&amp;rsquo; between their clients data sets? (e.g. altering parameters or inject something that makes me &amp;lsquo;jump&amp;rsquo; into another client data-set or any compromised by cookie tweaking)?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We use &lt;a href=&#34;https://projects.spring.io/spring-security/&#34;&gt;SpringSecurity&lt;/a&gt;, it provides protection against attacks like session fixation, clickjacking, cross site request forgery.&lt;/p&gt;
+
+&lt;p&gt;All private APIs (used from inside the application) are blocked for cross-domain requests. Also, there are filters checking for access right for specific objects.&lt;/p&gt;
+
+&lt;p&gt;There are number of public APIs that allow outside access (actual payment from HubSpot form). The only ID exposed publicly is User ID, but it&amp;rsquo;s 32-char random String UUID which is hard to brute force. Even if you know the other customer ID all you can do is to submit payment to their account.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Is there a monitoring?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We monitor Stripe and HubSpot APIs on backend, if either of those is down, we show an error message to user before injecting the form.
+For monitoring of our services we use &lt;a href=&#34;https://uptimerobot.com/&#34;&gt;UptimeRobot&lt;/a&gt; and &lt;a href=&#34;https://sentry.io&#34;&gt;Sentry&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>DepositFix Payment</title>
       <link>https://www.depositfix.com/payment/</link>
       <pubDate>Tue, 04 Apr 2017 10:35:19 -0500</pubDate>

@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="google-site-verification" content="8VRSKoT1h1-IwFeBxwFruohSNCQ26irCwmBYNoZrg4Y" />
     <link rel="shortcut icon" href="https://www.depositfix.com/img/favicon.png">
-    <title>Payment Gateways Fee Calculator</title>
+    <title>Security Information</title>
 
     
 
@@ -89,7 +89,7 @@
         <div class="row">
            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
              <div class="post-heading">
-               <h1>Payment Gateways Fee Calculator</h1>
+               <h1>Security Information</h1>
              </div>
            </div>
         </div>
@@ -101,92 +101,59 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                  <p>There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We&rsquo;ve created a fee calculator to help you to choose the right service.</p>
+                  <p>Inside DepositFix we keep data about contacts (name, email, contact id from Stripe) and transactions (date, amount, product name, transaction id from Stripe). This information is kept to help you segment the purchases.
+Credit card information (number, cvc, exp date) never sent to our servers, we use stripe tokens to charge the cards and they are not stored in our database.</p>
 
-<p><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script type="text/javascript" src="https://www.depositfix.com/js/JSCalc.js"></script>
-<link rel="stylesheet" type="text/css" href="https://www.depositfix.com/css/JSCalc.css" media="screen"/></p>
+<p>Since we don’t send or store information about the credit cards on our servers, DepositFix doesn&rsquo;t have to comply with the full <a href="https://www.pcisecuritystandards.org/pci_security/why_security_matters">PCI spec</a>.
+However, the whole process is PCI compliant, because Stripe or PayPal cover most of the requirements. On our side we use SSL encryption everywhere (Browser -&gt; Stripe -&gt; DepositFix -&gt; HubSpot). The database only allows connections from the application itself and blocks everything else.</p>
 
-<div ng-app="fees" ng-controller="feesCtrl" class="calc">
-    <form>
-        <div>Average monthly revenue ($)
-            <div ng-form name="revenue">
-                <input class="Input" name="monthlyRevenue" ng-model="monthlyRevenueToCount" required>
-                <span ng-show="revenue.monthlyRevenue.$touched && revenue.monthlyRevenue.$invalid">Please enter the value</span>
-            </div>
-            <div>Average number of transactions</div>
-            <div ng-form name="transactions">
-                <input class="Input" name="numOfTransactions" ng-model="numOfTransactionsToCount"
-                       required>
-                <span ng-show="transactions.numOfTransactions.$touched && transactions.numOfTransactions.$invalid">Please enter the value</span>
-            </div>
-            <div>Average number of chargebacks</div>
-            <div ng-form name="chargebacks">
-                <input class="Input" name="numOfChargebacks" ng-model="numOfChargebacksToCount" required>
-                <span ng-show="chargebacks.numOfChargebacks.$touched && chargebacks.numofChargebacks.$invalid">Please enter the value</span>
-            </div>
-            <div>
-                <button type="submit" class="Button" ng-click="calculateFees(); clicked=true">Calculate</button>
-            </div>
-        </div>
-    </form>
-    <div ng-show="clicked" class="Table">
-        <div class="Heading">
-            <div class="Cell">
-                Service
-            </div>
-            <div class="Cell">
-                Transaction fee
-            </div>
-            <div class="Cell">
-                Monthly fee
-            </div>
-            <div class="Cell">
-                Other
-            </div>
-            <div class="Cell">
-                Chargebacks
-            </div>
-            <div class="Cell">
-                Total
-            </div>
-        </div>
-        <div class="Row" ng-repeat="fee in fees">
-            <div class="Cell">
-                <a ng-href="{{fee.link}}">{{fee.gateway}}</a>
-            </div>
-            <div class="Cell">
-                ${{fee.transactional}}
-            </div>
-            <div class="Cell">
-                ${{fee.monthly}}
-            </div>
-            <div class="Cell">
-                <div ng-if="!fee.other.length">$0</div>
-                <div ng-if="fee.other.length">
-                    <div ng-repeat="other in fee.other">
-                        <div ng-repeat='(key,val) in other'>${{val + ' (' + key + ') '}}</div>
-                    </div>
-                </div>
-            </div>
-            <div class="Cell">
-                ${{fee.totalChargeback}}
-            </div>
-            <div class="Cell">
-                ${{fee.total}}
-            </div>
-        </div>
-    </div>
-</div>
+<p>DepositFix is backed by <a href="https://aws.amazon.com/">Amazon AWS</a> which is proven and secure infrastructure provider:</p>
 
-<div class="cta">
-	Looking for a service to accept payments within HubSpot?
+<ul>
+<li>Amazon RDS (Postgres) as storage</li>
+<li>Amazon S3 as CDN for CSS and JS files</li>
+<li>CloudFlare as DNS provider</li>
+<li>The application is deployed as docker containers with auto recovery mode.</li>
+</ul>
 
-		<a href='https://www.depositfix.com/'>
-			<button class="button" href="https://www.depositfix.com/">Try DepositFix</button>
-		</a>
-</div>
+<p><strong>If HubSpot operate with 2 (or more) availability zones, then what about DepositFix?</strong></p>
 
+<p>DepositFix is available in 2 availability zones, if one of the Amazon&rsquo;s data centers goes down, then we still be able to accept payments from your clients</p>
+
+<hr />
+
+<p><strong>How are data backups managed?</strong></p>
+
+<p>Database backups are automatically created every day and kept for 7 days.</p>
+
+<hr />
+
+<p><strong>What framework/language is used to implement DepositFix?</strong></p>
+
+<p>Backend: <a href="http://projects.spring.io/spring-boot/">Java + SpringBoot</a> + <a href="https://www.postgresql.org/">PostgreSQL</a>. Frontend: <a href="https://angularjs.org/">AngularJs</a></p>
+
+<hr />
+
+<p><strong>What access controls are there around the contact &amp; transaction data does DepositFix store and is the live environment distinct to the dev/staging environment?</strong></p>
+
+<p>Production and test environments are separated and run in different virtual networks</p>
+
+<hr />
+
+<p><strong>What structures are in place to prevent &lsquo;leakage&rsquo;/&lsquo;cross-talk&rsquo; between their clients data sets? (e.g. altering parameters or inject something that makes me &lsquo;jump&rsquo; into another client data-set or any compromised by cookie tweaking)?</strong></p>
+
+<p>We use <a href="https://projects.spring.io/spring-security/">SpringSecurity</a>, it provides protection against attacks like session fixation, clickjacking, cross site request forgery.</p>
+
+<p>All private APIs (used from inside the application) are blocked for cross-domain requests. Also, there are filters checking for access right for specific objects.</p>
+
+<p>There are number of public APIs that allow outside access (actual payment from HubSpot form). The only ID exposed publicly is User ID, but it&rsquo;s 32-char random String UUID which is hard to brute force. Even if you know the other customer ID all you can do is to submit payment to their account.</p>
+
+<hr />
+
+<p><strong>Is there a monitoring?</strong></p>
+
+<p>We monitor Stripe and HubSpot APIs on backend, if either of those is down, we show an error message to user before injecting the form.
+For monitoring of our services we use <a href="https://uptimerobot.com/">UptimeRobot</a> and <a href="https://sentry.io">Sentry</a>.</p>
 
                 </div>
             </div>
