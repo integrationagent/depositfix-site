@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c84c269-f911-464b-bf64-d3f21eef4c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/screenshots/crm_ext_payments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/screenshots/crm_ext_subscriptions.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/404.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy" afterPath="$PROJECT_DIR$/deploy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog" afterPath="$PROJECT_DIR$/themes/startbootstrap-clean-blog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/index.html" afterPath="$PROJECT_DIR$/layouts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/depositfix.css" afterPath="$PROJECT_DIR$/static/css/depositfix.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html" afterPath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/header.html" afterPath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/navbar.html" afterPath="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/navbar.html" />
@@ -81,9 +80,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="100" column="30" lean-forward="false" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="91">
+              <caret line="76" column="132" lean-forward="true" selection-start-line="76" selection-start-column="132" selection-end-line="76" selection-end-column="132" />
+              <folding>
+                <element signature="e#1580#1587#0" expanded="true" />
+                <element signature="e#1689#1697#0" expanded="true" />
+                <element signature="e#2505#2512#0" expanded="true" />
+                <element signature="e#2833#2841#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +115,8 @@
       <file leaf-file-name="depositfix.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/depositfix.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4334">
-              <caret line="197" column="21" lean-forward="false" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
+            <state relative-caret-position="129">
+              <caret line="82" column="11" lean-forward="false" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -150,6 +154,7 @@
       <find>foot</find>
       <find>footer</find>
       <find>start a</find>
+      <find>hannah</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,10 +202,10 @@
         <option value="$PROJECT_DIR$/content/setup.md" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/header.html" />
-        <option value="$PROJECT_DIR$/static/css/depositfix.css" />
         <option value="$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/content/security.md" />
         <option value="$PROJECT_DIR$/content/about.md" />
+        <option value="$PROJECT_DIR$/static/css/depositfix.css" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
       </list>
     </option>
@@ -227,10 +232,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="114" />
-    <option name="width" value="1909" />
-    <option name="height" value="1142" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -291,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,6 +324,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -750,31 +754,30 @@
       <workItem from="1496355686087" duration="396000" />
       <workItem from="1496491077002" duration="582000" />
       <workItem from="1496748659070" duration="7113000" />
-      <workItem from="1502857039010" duration="781000" />
+      <workItem from="1502857039010" duration="1401000" />
+      <workItem from="1503366481012" duration="2007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115903000" />
+    <option name="totallyTimeSpent" value="118530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="114" width="1909" height="1142" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949877" sideWeight="0.5022625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.359375" sideWeight="0.49773756" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2383503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.49773756" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -786,10 +789,12 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1209,14 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/depositfix.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4334">
-          <caret line="197" column="21" lean-forward="false" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/startbootstrap-clean-blog/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1247,11 +1244,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/depositfix.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="82" column="11" lean-forward="false" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="100" column="30" lean-forward="false" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="91">
+          <caret line="76" column="132" lean-forward="true" selection-start-line="76" selection-start-column="132" selection-end-line="76" selection-end-column="132" />
+          <folding>
+            <element signature="e#1580#1587#0" expanded="true" />
+            <element signature="e#1689#1697#0" expanded="true" />
+            <element signature="e#2505#2512#0" expanded="true" />
+            <element signature="e#2833#2841#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
