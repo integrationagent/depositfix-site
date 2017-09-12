@@ -1,0 +1,27 @@
+<article class="blog--post post">
+	<!-- entry-header -->
+	<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="{{ .Permalink }}" rel="">{{ .Title }}</a>
+		</h2>
+	</header>
+	<!-- /entry-header -->
+
+	<div class="post--info2 blog-author">
+		By {{ .Params.author }}
+	</div>
+
+	<!-- entry-content -->
+	<div class="entry-content">
+		<figure>
+			{{ if isset .Params "image" }}
+				<a href="{{ .Permalink }}" rel="">
+					<img src="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
+				</a>
+	        {{ end }}
+		</figure>
+	</div>
+	<!-- /entry-content -->
+</article>
+
+

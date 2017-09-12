@@ -1,0 +1,39 @@
+
+{{ partial "header.html" .}}
+
+<div class="container content">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+			<article class="post -page">
+
+				<!-- entry-header -->
+				<header class="entry-header">
+					<h1 class="entry-title">
+						<a href="{{ .Permalink }}" rel="">{{ .Title }}</a>
+					</h1>
+				</header>
+				<!-- /entry-header -->
+				<div class="blog-author">
+					By {{ .Params.author }}
+				</div>
+				<!-- entry-content -->
+				<div class="entry-content">
+					{{ if isset .Params "image" }}
+					<figure>
+					<img src="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
+					    </figure>
+						{{ end }}
+
+					{{ .Content }}
+				</div>
+				<!-- /entry-content -->
+
+				{{ template "_internal/disqus.html" . }}
+
+			</article>
+
+		</div>
+	</div>
+</div>
+
+{{ partial "footer.html" .}}

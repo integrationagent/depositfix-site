@@ -1,0 +1,172 @@
+    <!-- Footer -->
+
+
+
+    <div class="layout--footer">
+			<footer class="footer" style="background-image: url('{{ .Site.BaseURL }}/assets/images/design/footer.jpg')">
+				<div style="background-color:#0059b1" class="footer--bg"></div>
+				<div class="footer--inner">
+					<div class="container">
+						<div class="footer_main">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+									<div class="footer_main--column"><strong class="footer_main--column_title">About Us</strong>
+										<div class="footer_about">
+											<p class="footer_about--text">
+												From logo design to video animation, web development to website copy;
+												expert designers, developers and digital talent are ready to complete projects.
+											</p>
+											<p class="footer_about--text">
+												Learn creative and technical skills with Envato free tutorials. Try it
+												for free only this weekend.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+									<div class="footer_main--column"><strong class="footer_main--column_title">Latest Blog Posts</strong>
+										<ul class="footer_navigation">
+											{{ range first 4 .Data.Pages.ByPublishDate }}
+											    <div class="summary">
+												    <li class="footer_navigation--item"><a href="{{ .RelPermalink }}" class="footer_navigation--link">{{ .Title }}</a></li>
+											    </div>
+										    {{ end }}
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix visible-sm-block"></div>
+								<div class="col-lg-3 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+									<div class="footer_main--column"><strong class="footer_main--column_title">Our Projects</strong>
+										<ul class="footer_navigation">
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">DepositFix</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Idea2SaaS</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">Smart Forms</a></li>
+											<li class="footer_navigation--item"><a href="#" class="footer_navigation--link">HubSpot Development</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+									<div class="footer_main--column"><strong class="footer_main--column_title">Contact Info</strong>
+										<ul class="footer_contact_info">
+											<li class="footer_contact_info--item"><i class="bi_com-phone"></i><span>Call Us  (847) 497-0307</span></li>
+											<li class="footer_contact_info--item"><i class="bi_com-email"></i><span>denis@integrationagent.com</span></li>
+											<li class="footer_contact_info--item"><i class="bi_location-alt-pin"></i><span>375 Pebblecreek dr<br/> Lake Zurich, IL 60047, USA</span></li>
+											<li class="footer_contact_info--item"><i class="bi_time-clock-a"></i><span>Monday - Friday, 9am - 6 pm</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<section class="footer_copyrights">
+							<div class="footer_copyrights--container">
+								<div class="row">
+									<div class="col-sm-6 col-xs-12">
+										<div class="footer_copyrights--item">
+											<div class="footer_copyrights--logo"><a href="#"><img src="{{ .Site.BaseURL }}/img/logo_white.png" alt="" style="width: 190px"></a></div>
+										</div>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<div class="footer_copyrights--item">
+											<p class="footer_copyrights--item_copyrights">Integration Agent © 2016. All Rights Reserved.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</footer>
+
+			<!-- tip_order -->
+			<div class="tip -right -bottom -violet js-tip -hide">
+				<div class="tip_order">
+					<h2 class="tip--title">PRO ANALYTICS</h2>
+					<p class="tip--text">
+						Unlimited traffic &amp; more space than you will ever need
+					</p>
+					<button class="tip_order--button button -white" type="button">
+						ORDER
+					</button>
+					<i class="bi_doc-analytic-line-a"></i>
+				</div>
+				<button class="tip--close -white js-tip--close" type="button">
+					<i class="bi_interface-cross"></i>
+				</button>
+			</div>
+			<!-- /tip_order -->
+
+			<!-- tip_help -->
+			<div class="tip -right -bottom -hide js-tip">
+				<div class="tip_help">
+					<h2 class="tip--title">GET HELP!</h2>
+					<p class="tip--text -gray">
+						Jeffrey Boldman, our SEO guru is ready to help you.
+					</p>
+					<div class="tip_help--footer">
+						<div class="tip_help--user">
+							<figure class="tip_help--user_image">
+								<img src="./assets/images/content/testimonials/3.jpg" alt="">
+							</figure>
+							<span class="tip_help--user_name">
+								Jeffrey Boldman
+							</span>
+						</div>
+						<button class="tip_help--button button -primary" type="button">
+							Contacts
+						</button>
+					</div>
+				</div>
+				<button class="tip--close -closehelp js-tip--close" type="button">
+					<i class="bi_interface-cross"></i>
+				</button>
+			</div>
+			<!-- /tip_order -->
+
+		</div>
+
+    <!--<footer>-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">-->
+                  <!--<ul class="list-inline text-center">-->
+                    <!--<li>-->
+                      <!--<a href="mailto:{{ .Site.Params.email }}">-->
+                        <!--<span class="fa-stack fa-lg">-->
+                          <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                          <!--<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>-->
+                        <!--</span>-->
+                      <!--</a>-->
+                    <!--</li>-->
+                    <!--{{ range .Site.Params.social }}-->
+                    <!--<li>-->
+                      <!--<a href="{{ .url }}">-->
+                        <!--<span class="fa-stack fa-lg">-->
+                          <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                          <!--<i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>-->
+                        <!--</span>-->
+                      <!--</a>-->
+                    <!--</li>-->
+                    <!--{{ end }}-->
+                  <!--</ul>-->
+                  <!--<p class="copyright text-muted">{{ .Site.Copyright }}</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</footer>-->
+
+    <!--&lt;!&ndash; jQuery &ndash;&gt;-->
+
+    <script src="{{ .Site.BaseURL }}/assets/libs/jquery/dist/jquery.min.js"></script>
+    <!--&lt;!&ndash; Bootstrap Core JavaScript &ndash;&gt;-->
+    <!--<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>-->
+
+    <script src="{{ .Site.BaseURL }}/assets/libs/slideout.js/dist/slideout.min.js"></script>
+    <script src="{{ .Site.BaseURL }}/assets/scripts/main.js"></script>
+
+    {{ partial "technical_footer.html" . }}
+
+
+
+</body>
+
+</html>

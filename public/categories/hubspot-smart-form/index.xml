@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hubspot Smart Form on Payment Solution for HubSpot</title>
+    <link>https://www.depositfix.com/categories/hubspot-smart-form/index.xml</link>
+    <description>Recent content in Hubspot Smart Form on Payment Solution for HubSpot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Integration Agent 2017</copyright>
+    <atom:link href="https://www.depositfix.com/categories/hubspot-smart-form/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to display custom error message in HubSpot form</title>
+      <link>https://www.depositfix.com/blog/custom-form-message/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.depositfix.com/blog/custom-form-message/</guid>
+      <description>&lt;p&gt;HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, HubSpot form API doesn&amp;#8217;t provide a callback for failed validation.&lt;/p&gt;
+
+&lt;p&gt;But here is the workaround: we know that HS form inserts an element with an error message, so we can monitor that element after form being submitted:&lt;/p&gt;
+
+&lt;pre class=&#34;lang:default decode:true&#34;&gt;&amp;lt;script&amp;gt;
+
+    hbspt.forms.create({
+        formId: &#39;c3794ad3-f6a7-4c98-841d-98062636baab&#39;,
+        portalId: &#39;1670983&#39;,
+        onFormReady: function($form, ctx) {
+
+            var errorMessage = &#34;Your Error Message&#34;;
+
+            $form.find(&#34;input[type=&#39;submit&#39;]&#34;).click(function(){
+                var sbmt = $(this);
+
+                window.setTimeout(function(){
+                    if($(&#34;.hs-error-msgs&#34;).length &amp;gt; 0){
+                        //Put message on the top
+                        $form.prepend(&#34;&amp;lt;div class=&#39;form-error-message&#39;&amp;gt;&#34; + errorMessage + &#34;&amp;lt;/div&amp;gt;&#34;)
+
+                        //Put message on the bottom
+                        sbmt.parent().prepend(&#34;&amp;lt;div class=&#39;form-error-message&#39;&amp;gt;&#34; + errorMessage + &#34;&amp;lt;/div&amp;gt;&#34;)
+                    }else{
+                        $form.find(&#34;.form-error-message&#34;).remove();
+                    }
+
+                //delay to make sure native hbspt form error already appeared
+                }, 300);
+            });
+        }
+    });
+&amp;lt;/script&amp;gt;
+
+
+&amp;lt;style&amp;gt;
+    .form-error-message {
+        color: #ff0000;
+        font-weight: bold;
+        padding: 15px 0px;
+    }
+&amp;lt;/style&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;You can display your message on top or on the bottom.&lt;/p&gt;
+
+&lt;p&gt;Here is a working example of this kind of form:&lt;/p&gt;
+
+&lt;p&gt;This functionality will be included to the SmartForm plugin we are developing: &lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;http://integrationagent.com/smartforms&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

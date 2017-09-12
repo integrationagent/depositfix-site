@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Payments on Payment Solution for HubSpot</title>
+    <link>https://www.depositfix.com/categories/payments/index.xml</link>
+    <description>Recent content in Payments on Payment Solution for HubSpot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Integration Agent 2017</copyright>
+    <atom:link href="https://www.depositfix.com/categories/payments/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to integrate HubSpot form and PayPal</title>
+      <link>https://www.depositfix.com/hubspot-paypal</link>
+      <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
+      
+      <guid>https://www.depositfix.com/hubspot-paypal</guid>
+      <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
+
+&lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
+
+&lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the complete source code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;!--[if lte IE 8]&amp;gt;
+&amp;lt;script charset=&amp;quot;utf-8&amp;quot; type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;//js.hsforms.net/forms/v2-legacy.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;![endif]--&amp;gt;
+&amp;lt;script charset=&amp;quot;utf-8&amp;quot; type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;//js.hsforms.net/forms/v2.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;form action=&amp;quot;https://www.paypal.com/cgi-bin/webscr&amp;quot; method=&amp;quot;post&amp;quot; id=&amp;quot;paypalform&amp;quot;&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;item_name&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;amount&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;quantity&amp;quot; value=&amp;quot;1&amp;quot;&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;cmd&amp;quot; value=&amp;quot;_xclick&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;custom&amp;quot; value=&amp;quot;true&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;business&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;div id=&amp;quot;hs-form-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+
+&amp;lt;script&amp;gt;
+
+    var HubSpotPayPal = {
+
+        init: function (params) {
+
+            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
+
+            hbspt.forms.create({
+                portalId: params.hubSpotPortalId,
+                formId: params.hubSpotFormId,
+                target: &amp;quot;#hs-form-container&amp;quot;,
+                onFormSubmit: function ($form) {
+                    setTimeout(function () {
+                        $(&amp;quot;#paypalform&amp;quot;).submit();
+                    }, 10);
+                    return false;
+                }
+            });
+        },
+
+        initPayPalForm: function(paypalEmail, amount, productName){
+
+            $(&amp;quot;#paypalform [name=&#39;business&#39;]&amp;quot;).val(paypalEmail);
+            $(&amp;quot;#paypalform [name=&#39;amount&#39;]&amp;quot;).val(amount);
+            $(&amp;quot;#paypalform [name=&#39;item_name&#39;]&amp;quot;).val(productName);
+        }
+    }
+
+    HubSpotPayPal.init({
+        paypalEmail: &amp;quot;den.lunev@gmail.com&amp;quot;,
+        amount: &amp;quot;170&amp;quot;,
+        productName: &amp;quot;My New Product&amp;quot;,
+        hubSpotPortalId: &amp;quot;2767376&amp;quot;,
+        hubSpotFormId: &amp;quot;14109ada-6a61-4d63-a1db-430b6ce0926d&amp;quot;
+    });
+
+&amp;lt;/script&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You just need to update the last part:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;HubSpotPayPal.init({
+    paypalEmail: &amp;quot;[Your PayPal business account]&amp;quot;,
+    amount: &amp;quot;[Amount]&amp;quot;,
+    productName: &amp;quot;[Name of your product or service]&amp;quot;,
+    hubSpotPortalId: &amp;quot;[Your HubSpot portal Id]&amp;quot;,
+    hubSpotFormId: &amp;quot;[Your HubSpot form Id]&amp;quot;
+});
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Looking for complete payment solution for HubSpot?
+Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
+      <link>https://www.depositfix.com/setup-ssl</link>
+      <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
+      
+      <guid>https://www.depositfix.com/setup-ssl</guid>
+      <description>
+
+&lt;p&gt;What makes a great online store? It used to be that mobile optimization,
+great content, and responsiveness alone were enough.&lt;/p&gt;
+
+&lt;p&gt;Well, part of the process that you must accomplish when developing an
+online store is determining how to secure online experiences of your
+customers. If you’re new to online stores, you might get confused on SSL
+certificates as a primary component of the web security process. You may
+have tons of queries such as: what it is, how it works and more
+important, how to set it up on your HubSpot website.&lt;/p&gt;
+
+&lt;p&gt;In this article we break it down for you so that you
+understand what SSL is, why you need it on your website and how to set
+it up on your online store. Let’s get started.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-ssl&#34;&gt;What is SSL?&lt;/h2&gt;
+
+&lt;p&gt;SSL is an acronym for Secure Sockets Layer. In some instances, it’s
+called the TSL (Transport Security Layer). SSL is simply a protocol that
+encrypts transactions between a client application (a browser) and the
+online store server. Simply put: SSL protects the sensitive information
+such as credit card details—by making them private and confidential—from
+being stolen by malicious users over the internet.&lt;/p&gt;
+
+&lt;p&gt;SSL uses an encryption algorithm that ensures that each message being
+exchanged on the web passes integrity test before being transmitted. If
+the integrity test fails—due to corruption or an unexpected alteration
+by malicious users—then such a transaction doesn’t proceed to successful
+conclusion.&lt;/p&gt;
+
+&lt;p&gt;For you to enhance the security of online transactions, you should
+obtain an SSL certificate that’s relevant for that domain. The
+certificate will apply the encryption algorithms for all the
+transactions that take place between customers and your online store.&lt;/p&gt;
+
+&lt;p&gt;SSL is visible to users in several ways in the website address bar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
+&lt;li&gt;The website address starting with https://
+&lt;br/&gt;
+&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;why-is-ssl-certificate-vital-for-accepting-payments&#34;&gt;Why is SSL certificate vital for accepting payments?&lt;/h2&gt;
+
+&lt;p&gt;As online mercantile, it’s your primary responsibility to ensure that
+the information being exchanged over your online store—which you collect
+from your customers—is protected at all costs. Here are reasons why you
+should protect your customer’s sensitive information such as credit card
+and personal information:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-confidential-transactions&#34;&gt;1. Confidential Transactions&lt;/h3&gt;
+
+&lt;p&gt;The primary objective of any SSL is to transmit sensitive information
+with an encrypted connection. Your customers must be assured that their
+private data such as usernames, passwords and credit card numbers are
+not revealed to malicious attackers while they are making online
+payments.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-customer-s-trust&#34;&gt;2. Customer’s Trust&lt;/h3&gt;
+
+&lt;p&gt;The majority of online shoppers are very choosy when it comes making
+online payments. Therefore, it’s your duty to convince them their
+privacy is guaranteed so that they trust your business and your
+products. An SSL enabled online store improves customer’s trust to your
+business.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-set-up-an-ssl-certificate-on-a-hubspot-website&#34;&gt;How to set up an SSL certificate on a HubSpot website&lt;/h2&gt;
+
+&lt;p&gt;You have 4 options here:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
+
+&lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
+
+&lt;p&gt;If you host your website not on HubSpot, but for example Wordpress on your own server, then you can buy a certificate from any major certificate authorities or get a free one from &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt;.
+Then, you&amp;rsquo;d need to install it on your server, the installation process depends on your web server.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-flexible-ssl-from-cloudflare&#34;&gt;3. Flexible SSL from CloudFlare&lt;/h3&gt;
+
+&lt;p&gt;To use this option you&amp;rsquo;ll need to move your domain to &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; and activate &lt;a href=&#34;https://www.cloudflare.com/ssl/&#34;&gt;Flexible SSL&lt;/a&gt;.
+It doesn&amp;rsquo;t involve buying and installing SSL certificate, but your visitors will still see the SSL icon and https:// in the address bar.
+Downside of this method is that it encrypts connection only between your site visitors and CloudFlare, but not from CloudFlare and your server.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-depositfix-with-encrypted-subdomain&#34;&gt;4. DepositFix with encrypted subdomain&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://depositfix.com&#34;&gt;DepositFix&lt;/a&gt; is a shopping cart created especially for HubSpot. You can get a free subdomain on your domain (e.g. payment.yourdomain.com) for payment form.
+It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right company plus you get fully 128-bit encrypted connection between browser and server.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Differences between Payment Gateway and a Merchant Account</title>
+      <link>https://www.depositfix.com/payment-gateway-merchant-account</link>
+      <pubDate>Fri, 15 Jul 2016 06:24:27 -0500</pubDate>
+      
+      <guid>https://www.depositfix.com/payment-gateway-merchant-account</guid>
+      <description>
+
+&lt;p&gt;Virtually all businesses—from big-box retailers to Etsy merchants, from
+trade show merchants to antique sellers—accept payments in the form of
+credit cards. And here is the fact: more and more businesses are
+accepting online payments in this fast-paced, ever-changing and complex
+e-commerce industry.&lt;/p&gt;
+
+&lt;p&gt;If you’re already accepting credit card payments from online sales, then
+you must be at home with merchant accounts. However, if you’re a newbie
+in e-commerce, then you must be grappling to learn about payment
+gateways. So, what’s the difference between merchant accounts and
+payment gateways?&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-a-merchant-account&#34;&gt;What is a merchant account?&lt;/h2&gt;
+
+&lt;p&gt;A merchant account is an online bank account that temporarily holds your
+money once payment has been approved by a payment gateway. After a
+successful payment, money will stay in your merchant account for a few
+days (between 2 to 7 days) after which it will be transferred to your
+real bank account.&lt;/p&gt;
+
+&lt;p&gt;There are two main types of merchant accounts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dedicated Merchant Account&lt;/li&gt;
+&lt;li&gt;Aggregate Merchant Account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dedicated-merchant-account&#34;&gt;Dedicated Merchant Account&lt;/h3&gt;
+
+&lt;p&gt;A dedicated Merchant Account provides you with total control over your
+funds. For every transaction that’s conducted, the merchant account
+provider deducts processing fees and the rest of the money is deposited
+into your business account. You can set up your account with payment
+gateway systems such as Authorize.Net, PayLeap, and Blue Pay Processing
+LLC.&lt;/p&gt;
+
+&lt;p&gt;Some of the actions that you can take while using a dedicated merchant
+account are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Debiting your account in case your customers make charge-back claims&lt;/li&gt;
+&lt;li&gt;Correcting the errors in the transactions&lt;/li&gt;
+&lt;li&gt;Taking necessary actions in case there’s an evidence of fraudulent activity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;aggregate-merchant-account&#34;&gt;Aggregate Merchant Account&lt;/h3&gt;
+
+&lt;p&gt;In this type of account, the money that customers pay is pooled with
+other companies. For you to open such an account, you must provide
+details about your company and the type of products and services that
+you’re dealing with. Since the amount of money in your account is pooled
+with other companies, you don’t have exclusive control over the account.
+In fact, you can’t negotiate the rates when using this account.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-a-payment-gateway&#34;&gt;What about a payment gateway?&lt;/h2&gt;
+
+&lt;p&gt;A payment gateway is an e-commerce application system that permits
+credit card payments for e-commerce transactions, online retailing and
+traditional brick and mortar transactions. When customers are buying
+goods and services from your online store, they fill out their credit
+card details during the checkout process.&lt;/p&gt;
+
+&lt;p&gt;Your online store will then send the credit card data that has been
+entered during the checkout process to the payment gateway to authorize
+the transaction and process the payment. During the processing, all the
+payment gateway does is to verify whether the information customers have
+submitted matches the data that’s available on the credit card. If they
+match, then the payment is approved and money is then transferred from
+the customer’s account to your merchant account.&lt;/p&gt;
+
+&lt;p&gt;Some of the popular payment gateways—that don’t require merchant
+accounts—include PayPal, Stripe and Braintree Payments.&lt;/p&gt;
+
+&lt;p&gt;The main feature of these payment gateways is that you will not need to
+change bank accounts. Or, perform anything special for you to get up
+running with the payments processing. Furthermore, it’s easier to
+integrate these systems with your online store.&lt;/p&gt;
+
+&lt;p&gt;But still, there are downsides too. First, there are higher transaction
+charges that you’ll incur when using these payment systems. Second,
+virtually all modern payment gateways always send customers to off-sites
+while making payments. This often reduces the conversion rates for some
+stores.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-which-option-is-right-for-your-business&#34;&gt;So, which option is right for your business?&lt;/h2&gt;
+
+&lt;p&gt;Merchant accounts have been with us for quite some time since the coming
+on of credit cards. If you’re a retailer that sells primarily from the
+brick and mortar stores, then setting up a merchant account can help you
+increase your cash flows in the business.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, the payment gateways are ideal for e-businesses and
+other mobile retailers. When you use this payment gateway, the retailers
+can easily enter and approve their credit card details from their mobile
+devices.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt;
+	Which payment gateway has the smallest fees?
+
+		&lt;a href=&#39;http://www.depositfix.com/calc/&#39;&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
+		&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;putting-it-together&#34;&gt;Putting it together&lt;/h2&gt;
+
+&lt;p&gt;Adding a payment gateway system or a merchant account to your online
+store is a critical part of enhancing your business bottom line. When
+you’re ready to accept payments, you can compete favorably in today’s
+fast-paced and ever-evolving business environment. I hope this post has
+been helpful in your search for the differences between payment gateways
+and merchant accounts.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

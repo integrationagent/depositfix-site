@@ -4,7 +4,9 @@ canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
-copyright = "Integration Agent 2016"
+copyright = "Integration Agent 2017"
+disqusShortname = "integrationagent"
+
 
 [author]
   name = "Denis Lunev"
@@ -30,6 +32,12 @@ copyright = "Integration Agent 2016"
   name = "About Us"
   url = "/about"
   weight = -160
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = -150
+
 
 [[menu.main]]
   name = "Setup Instructions"

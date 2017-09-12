@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="google-site-verification" content="Kw_Hzk9A0TQehx9xinZ9fel00w2qZudaKlB8izb4mxA"/>
+
+		<title>{{ .Title }} -- {{ .Site.Title }}</title>
+
+		{{ if .RSSlink }}
+		<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+		<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
+		{{ end }}
+
+		<!-- Bootstrap Core CSS -->
+		<!--<link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">-->
+		<link href="{{ .Site.BaseURL }}/assets/styles/main.css" rel="stylesheet">
+		<link href="{{ .Site.BaseURL }}/css/custom.css" rel="stylesheet">
+
+		<!-- Custom Fonts -->
+		<!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"-->
+		<!--type="text/css">-->
+		<!--<link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'-->
+		<!--type='text/css'>-->
+		<!--<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'-->
+		<!--rel='stylesheet' type='text/css'>-->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic'
+		      rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<link rel="icon" type="image/png" href="/img/logo_loader.png">
+
+		<!--&lt;!&ndash; HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries &ndash;&gt;-->
+		<!--&lt;!&ndash; WARNING: Respond.js doesn't work if you view the page via file:// &ndash;&gt;-->
+		<!--&lt;!&ndash;[if lt IE 9]>-->
+		<!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+		<!--<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+		<!--<![endif]&ndash;&gt;-->
+
+	</head>
+
+	<body>
+
+
+
+		<div id="main">
+			<div class="layout">
+				<div class="layout--header">
+
+					<!-- Navigation -->
+					<div class="header">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-12">
+									<div class="header--logo logo">
+										<a href="{{ .Site.BaseURL }}">
+											<img src="{{ .Site.BaseURL }}/img/logo_small.png" alt=""/>
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-12 visible-md-block visible-lg-block">
+									<div class="header--left">
+
+										{{ partial "navbar.html" . }}
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="header--menu_opener visible-xs-block visible-sm-block">
+							<span class="c-hamburger c-hamburger--htx">
+								<span>toggle menu</span>
+							</span>
+						</div>
+					</div>
+
+
+					<!-- header sticky -->
+					<div class="header header_sticky">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-12">
+									<div class="header--logo logo">
+										<a href="#">
+											<img src="{{ .Site.BaseURL }}/assets/images/design/logo-header.png" alt=""
+											     style="width:185px;">
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-12 visible-md-block visible-lg-block">
+									<div class="header--right">
+										<nav class="header_nav">
+											<ul class="menu">
+												<li class="menu-item -mega">
+													<a href="#">ABOUT</a>
+
+													<!-- mega_nav -->
+													<div class="mega_nav -right">
+
+														<div class="mega_nav_simple">
+															<!-- col -->
+															<div class="mega_nav_simple--col">
+																<h2 class="mega_nav_simple--col_title"><a href="#">COMPANY</a>
+																</h2>
+																<div class="mega_nav_simple--menu_wrap">
+																	<ul class="mega_nav_simple--menu">
+																		<li class="-has_child">
+																			<a href="#">Who we are</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">What we do</a>
+																				</li>
+																				<li>
+																					<a href="#">Some Page</a>
+																				</li>
+																				<li>
+																					<a href="#">About Us</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Pages</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">What we do</a>
+																		</li>
+																		<li class="-has_child">
+																			<a href="#">Some Page</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">What we do</a>
+																				</li>
+																				<li>
+																					<a href="#">Some Page</a>
+																				</li>
+																				<li>
+																					<a href="#">About Us</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Pages</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">About Us</a>
+																		</li>
+																		<li>
+																			<a href="#" class="-all">All Pages</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<!-- /col -->
+
+															<!-- col -->
+															<div class="mega_nav_simple--col">
+																<h2 class="mega_nav_simple--col_title"><a href="#">ABOUT
+																	US</a></h2>
+																<div class="mega_nav_simple--menu_wrap">
+																	<ul class="mega_nav_simple--menu">
+																		<li class="-has_child">
+																			<a href="#">Interesting link</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Building a website</a>
+																				</li>
+																				<li>
+																					<a href="#">Marketing Tricks</a>
+																				</li>
+																				<li>
+																					<a href="#">Free e-books</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						resources</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">Building a website</a>
+																		</li>
+																		<li class="-has_child">
+																			<a href="#">Marketing Tricks</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Building a website</a>
+																				</li>
+																				<li>
+																					<a href="#">Marketing Tricks</a>
+																				</li>
+																				<li>
+																					<a href="#">Free e-books</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						resources</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">Free e-books</a>
+																		</li>
+																		<li>
+																			<a href="#" class="-all">All resources</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<!-- /col -->
+
+															<!-- col -->
+															<div class="mega_nav_simple--col">
+																<h2 class="mega_nav_simple--col_title"><a href="#">CAREERS</a>
+																</h2>
+																<div class="mega_nav_simple--menu_wrap">
+																	<ul class="mega_nav_simple--menu">
+																		<li class="-has_child">
+																			<a href="#">Job opportunities</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Job opportunities</a>
+																				</li>
+																				<li>
+																					<a href="#">Perks</a>
+																				</li>
+																				<li>
+																					<a href="#">Office gallery</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Careers</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">Perks</a>
+																		</li>
+																		<li class="-has_child">
+																			<a href="#">Office gallery</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Job opportunities</a>
+																				</li>
+																				<li>
+																					<a href="#">Perks</a>
+																				</li>
+																				<li>
+																					<a href="#">Office gallery</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Careers</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#" class="-all">All Careers</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<!-- /col -->
+
+															<!-- col -->
+															<div class="mega_nav_simple--col">
+																<h2 class="mega_nav_simple--col_title"><a
+																		href="#">TEAM</a></h2>
+																<div class="mega_nav_simple--menu_wrap">
+																	<ul class="mega_nav_simple--menu">
+																		<li class="-has_child">
+																			<a href="#">Job opportunities</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Job opportunities</a>
+																				</li>
+																				<li>
+																					<a href="#">Perks</a>
+																				</li>
+																				<li>
+																					<a href="#">Office gallery</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Careers</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">Perks</a>
+																		</li>
+																		<li class="-has_child">
+																			<a href="#">Office gallery</a>
+																			<ul class="mega_nav_simple--menu -hidden">
+																				<li>
+																					<a href="#"
+																					   class="mega_nav_simple--go_back">go
+																						back</a>
+																				</li>
+																				<li>
+																					<a href="#">Job opportunities</a>
+																				</li>
+																				<li>
+																					<a href="#">Perks</a>
+																				</li>
+																				<li>
+																					<a href="#">Office gallery</a>
+																				</li>
+																				<li>
+																					<a href="#" class="-all">All
+																						Careers</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#" class="-all">All Careers</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<!-- /col -->
+														</div>
+
+													</div>
+													<!-- /mega_nav -->
+
+												</li>
+												<li class="menu-item -mega">
+													<a href="#">SERVICES</a>
+
+													<!-- mega_nav -->
+													<div class="mega_nav -wide">
+														<div class="mega_nav--wrapper">
+
+															<!-- mega_nav_icons -->
+															<div class="mega_nav_icons">
+																<div class="mega_nav_icons--content">
+
+																	<div class="mega_nav_icons--wrap">
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					MONTHLY REPORT</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_doc-analytic-line-a"></i>
+																				</div>
+																			</a>
+																		</div>
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					SCHEDULED POSTING</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_time-calendar"></i>
+																				</div>
+																			</a>
+																		</div>
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					DATABASE SEARCH</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_web-inspect"></i>
+																				</div>
+																			</a>
+																		</div>
+																	</div>
+																	<div class="mega_nav_icons--wrap">
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					FLEXIBLE SETTING</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_setting-gear-a"></i>
+																				</div>
+																			</a>
+																		</div>
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					TEAM ACCESS</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_user-alt-group"></i>
+																				</div>
+																			</a>
+																		</div>
+																		<div class="mega_nav_icons--item">
+																			<a href="">
+																				<h3 class="mega_nav_icons--item_title">
+																					LIVE SUPPORT</h3>
+																				<p class="mega_nav_icons--item_text">
+																					Donec mollis quam vel tellus</p>
+																				<div class="mega_nav_icons--item_image block -border_double -circle">
+																					<i class="bi_com-bubble-line"></i>
+																				</div>
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<!-- /mega_nav_icons -->
+
+															<footer class="mega_nav--footer_buttons">
+																<a href="" class="button -blue_dark">BROWSE ALL</a>
+															</footer>
+														</div>
+													</div>
+													<!-- mega_nav -->
+
+												</li>
+												<li class="menu-item -mega">
+													<a href="#">CASE STUDIES</a>
+
+													<!-- mega_nav -->
+													<div class="mega_nav -wide">
+														<div class="mega_nav--wrapper">
+
+															<!-- mega_nav_images -->
+															<div class="mega_nav_images">
+
+																<div class="row">
+
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/11.png"
+																				     alt="">
+																			</figure>
+																			<h3>SCHEDULED POSTING</h3>
+																			<p>Donec mollis quam vel tellus</p>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/12.png"
+																				     alt="">
+																			</figure>
+																			<h3>NEW SEO TOOLS</h3>
+																			<p>Donec mollis quam vel tellus</p>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/13.png"
+																				     alt="">
+																			</figure>
+																			<h3>ONLINE SUPPORT</h3>
+																			<p>Donec mollis quam vel tellus</p>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/14.png"
+																				     alt="">
+																			</figure>
+																			<h3>BROWSING ANYWHERE</h3>
+																			<p>Donec mollis quam vel tellus</p>
+																		</a>
+																	</div>
+
+																</div>
+
+															</div>
+															<!-- /mega_nav_images -->
+
+															<footer class="mega_nav--footer_buttons">
+																<a href="" class="button -blue_dark">BROWSE ALL</a>
+															</footer>
+														</div>
+													</div>
+													<!-- /mega_nav -->
+
+												</li>
+												<li class="menu-item -mega">
+													<a href="#">BLOG</a>
+
+													<!-- mega_nav -->
+													<div class="mega_nav -wide">
+														<div class="mega_nav--wrapper">
+
+															<!-- mega_nav_images -->
+															<div class="mega_nav_images">
+																<div class="row">
+
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/1.jpg"
+																				     alt="">
+																			</figure>
+																			<h3>WHAT ARE THE SEARCH ENGINES AND HOW
+																				TO</h3>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/2.jpg"
+																				     alt="">
+																			</figure>
+																			<h3>CREATURES IN THE OUTER SPACE. THEY
+																				EXIST</h3>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/3.jpg"
+																				     alt="">
+																			</figure>
+																			<h3>Gigantic wheel in london is ready to
+																				move</h3>
+																		</a>
+																	</div>
+																	<div class="col-md-3">
+																		<a href="#" class="mega_nav_images--item">
+																			<figure class="mega_nav_images--item_image block -border_double">
+																				<img src="{{ .Site.BaseURL }}/assets/images/content/mega_nav_images/4.jpg"
+																				     alt="">
+																			</figure>
+																			<h3>CLOTHES STORES ARE NOW OPENED
+																				EVERYWHERE</h3>
+																		</a>
+																	</div>
+
+																</div>
+															</div>
+															<!-- /mega_nav_images -->
+
+															<footer class="mega_nav--footer_buttons">
+																<a href="" class="button -blue_dark">BROWSE ALL</a>
+															</footer>
+														</div>
+													</div>
+													<!-- /mega_nav -->
+
+												</li>
+												<li class="menu-item">
+													<a href="#">CAREERS</a>
+
+													<!-- submenu -->
+													<ul class="sub-menu">
+														<li class="menu-item">
+															<a href="#">Page 1</a>
+														</li>
+														<li class="menu-item">
+															<a href="#">Page 2</a>
+														</li>
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Page 3</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Page 1</a>
+																</li>
+																<li class="menu-item menu-item-has-children">
+																	<a href="#">Page 2</a>
+																	<ul class="sub-menu">
+																		<li class="menu-item">
+																			<a href="#">Page 1</a>
+																		</li>
+																		<li class="menu-item">
+																			<a href="#">Page 2</a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item">
+															<a href="#">Page 4</a>
+														</li>
+													</ul>
+													<!-- /submenu -->
+
+												</li>
+												<li class="menu-item -mega">
+													<a href="#">CONTACT US</a>
+												</li>
+											</ul>
+
+										</nav>
+
+										<form action="#" class="header_search js-header_search">
+											<button class="header_search--opener js-header_search--opener"><i
+													class="bi_interface-search"></i></button>
+											<fieldset class="header_search--dropdown js-header_search--dropdown">
+												<input type="text" placeholder="SEARCH">
+											</fieldset>
+										</form>
+
+										<button class="button -secondary">FREE SEO ANALYSIS</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="header--menu_opener visible-xs-block visible-sm-block">
+					<span class="c-hamburger c-hamburger--htx">
+						<span>toggle menu</span>
+						</button>
+						</div>
+					</div>
+					<!-- /header sticky -->
+
+				</div>
+			</div>
+		</div>
+
+

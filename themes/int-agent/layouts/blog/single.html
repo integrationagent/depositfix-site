@@ -1,0 +1,91 @@
+{{ partial "header.html" .}}
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+
+			<article class="post -page">
+
+				<!-- info -->
+				<div class="post--info">
+					<!--<figure class="post&#45;&#45;info_userpic block -border_double -circle">-->
+					<!--<img alt="Boat" src="./assets/images/content/post_opened/3.jpg">-->
+					<!--</figure>-->
+					<strong class="post--info_user">
+						<a href="#">{{ .Params.author }}</a>
+					</strong>
+					<ul class="post--info_meta">
+						<li>
+							<time datetime="2001-05-15T19:00">17th August, 2015</time>
+						</li>
+						<li>
+							<a href="#">Marketing</a>, <a href="#">Business</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /info -->
+
+				<!-- entry-header -->
+				<header class="entry-header">
+					<h1 class="entry-title">
+						<a href="#" rel="">{{ .Title }}</a>
+					</h1>
+				</header>
+				<!-- /entry-header -->
+
+				<!-- entry-content -->
+				<div class="entry-content">
+					{{ if isset .Params "image" }}
+					<img src="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
+					{{ end }}
+
+					{{ .Content }}
+				</div>
+				<!-- /entry-content -->
+
+				{{ template "_internal/disqus.html" . }}
+
+			</article>
+
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+			<div class="post-heading">
+				<h1>{{ .Title }}</h1>
+				<!--<h2 class="subheading">{{ .Description }}</h2>-->
+				<span class="post-meta">Posted by {{ .Params.author }}
+					<!--<br />-->
+					<!--{{ partial "categories.html" . }}-->
+					<!--<br />-->
+					<!--{{ partial "tags.html" . }}-->
+               </span>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+
+<!-- Post Content -->
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+				{{ if isset .Params "image" }}
+				<img src="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
+				{{ end }}
+
+				{{ .Content }}
+
+				{{ template "_internal/disqus.html" . }}
+			</div>
+		</div>
+	</div>
+</article>
+
+
+{{ partial "footer.html" .}}

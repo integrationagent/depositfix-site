@@ -1,0 +1,15 @@
+<div class="post-preview">
+	<a href="{{ .Permalink }}" class="mega_nav_images--item">
+		<h2 class="post-title">@@@{{ .Title }}</h2>
+		{{ if isset .Params "image" }}
+            <figure class="mega_nav_images--item_image block -border_double">
+				<img src="{{ .Site.BaseURL }}/{{ .Params.image }}" style="width: 750px;"/>
+            </figure>
+        {{ end }}
+		<h3 class="post-subtitle">{{ .Description }}</h3>
+	</a>
+	<p class="post-meta">Posted by {{ .Site.Params.Author }}
+		<br/>
+	</p>
+</div>
+<hr>
