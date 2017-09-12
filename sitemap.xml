@@ -27,8 +27,28 @@
   </url>
   
   <url>
+    <loc>https://www.depositfix.com/hubspot-paypal</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.depositfix.com/setup/</loc>
     <lastmod>2016-08-18T15:09:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/setup-ssl</loc>
+    <lastmod>2016-08-05T06:24:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/payment-gateway-merchant-account</loc>
+    <lastmod>2016-07-15T06:24:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/social-media-tools</loc>
+    <lastmod>2016-06-25T07:20:34-05:00</lastmod>
   </url>
   
   <url>
@@ -47,8 +67,68 @@
   </url>
   
   <url>
+    <loc>https://www.depositfix.com/blog/custom-form-message/</loc>
+    <lastmod>2015-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</loc>
+    <lastmod>2015-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</loc>
+    <lastmod>2015-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</loc>
+    <lastmod>2015-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/blog/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/categories/hubspot/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/categories/hubspot-integrations/</loc>
+    <lastmod>2015-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/categories/hubspot-smart-form/</loc>
+    <lastmod>2015-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.depositfix.com/</loc>
     <lastmod>2016-06-16T11:05:39-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.depositfix.com/categories/payments/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
     <priority>0</priority>
   </url>
   
