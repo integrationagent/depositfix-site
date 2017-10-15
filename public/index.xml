@@ -28,6 +28,7 @@
       <guid>https://www.depositfix.com/about/</guid>
       <description>&lt;hr /&gt;
 
+&lt;p&gt;@@@@@
 &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
         &lt;img src=&#34;https://www.depositfix.com/img/headshot-title.png&#34;&gt;
@@ -37,7 +38,7 @@
        &lt;br&gt;&lt;br&gt;
        Denis is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
     &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -123,6 +124,36 @@ For monitoring of our services we use &lt;a href=&#34;https://uptimerobot.com/&#
       <guid>https://www.depositfix.com/payment/</guid>
       <description>&lt;script src=&#34;https://depositfix.s3.amazonaws.com/depositfixform.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://www.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing</title>
+      <link>https://www.depositfix.com/pricing</link>
+      <pubDate>Thu, 23 Feb 2017 14:49:22 -0600</pubDate>
+      
+      <guid>https://www.depositfix.com/pricing</guid>
+      <description>&lt;div class=&#34;pricing&#34;&gt;
+&lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;div class=&#34;post-heading&#34;&gt;
+                &lt;h1&gt;Pricing: $50/month&lt;/h1&gt;
+                &lt;p&gt;Includes unlimited transactions, unlimited forms, Stripe subscriptions, &lt;br&gt;dynamic amounts, multi currency support and other features&lt;/p&gt;
+
+                &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34;&gt;
+                    &lt;button type=&#34;button&#34; class=&#34;btn btn-danger btn-lg&#34;&gt;Start Accepting Payments&lt;/button&gt;
+                &lt;/a&gt;
+
+                &lt;div class=&#34;trial-text&#34;&gt;15 days free trial, no credit card required&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -891,56 +922,6 @@ attain your bottom line.&lt;/p&gt;
 &lt;p&gt;Here is a working example of this kind of form:&lt;/p&gt;
 
 &lt;p&gt;This functionality will be included to the SmartForm plugin we are developing: &lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;http://integrationagent.com/smartforms&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>4 Ultimate Tips That Can Help You to Manage Your HubSpot Account</title>
-      <link>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</link>
-      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</guid>
-      <description>
-
-&lt;p&gt;The task of organizing a HubSpot portal can be daunting, especially if you’re a newbie. This is because you’ve just begun to figure out how the platform works without the knowledge of how to get the maximum gains of the portal.  If you knew how to organize your HubSpot Account, then you could save a great deal of time when using this amazing inbound marketing software.&lt;/p&gt;
-
-&lt;p&gt;If you’re a marketer who has little time, or you simply don’t have the resources to help you explore what features are found in your HubSpot account, then it’s high time that you learned how to organize your HubSpot account to get the maximum benefits of inbound marketing.&lt;/p&gt;
-
-&lt;p&gt;In “4 Ultimate Tips That Can Help You to Organize Your HubSpot Account”, we unveil practices that you can use to help you have an organized HubSpot account that delivers maximum benefits for your company.&lt;/p&gt;
-
-&lt;h2 id=&#34;best-practices-for-managing-a-hubspot-account&#34;&gt;Best Practices for managing a HubSpot Account&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-54&#34; src=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg&#34; alt=&#34;How to Manage HubSpot Account&#34; width=&#34;588&#34; height=&#34;701&#34; srcset=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg 644w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-252x300.jpg 252w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg 808w&#34; sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Here are the best practices for managing your HubSpot account for your business bottom line:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Learn social media monitoring capability&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Your HubSpot’s COS promotes social media marketing—marketing strategy that is built on social media platforms such as Facebook and Twitter. So, knowing how to track the conversations that takes place between your social media profile and that of potential customers is vital in helping you to save time—while providing greater insights on which types of social messages work and that ones are not successful in marketing your products/services.&lt;/p&gt;
-
-&lt;p&gt;Depending on the goal you’d like to achieve with your social media strategy—whether it’s improving your relationship with clients or increasing website traffic—you should learn how to organize your HubSpot account. Learn how to categorize your social media contacts.&lt;/p&gt;
-
-&lt;p&gt;If there’s one thing that HubSpot can help you in social media marketing, then it is helping you to categorize your social media contacts. In fact, you can segment each communication from your clients by customizing each communication in different categories in an effective and efficient manner.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Learn how to organize the page performance tool&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You’ve put a lot of time and resources in fine-tuning and promoting your HubSpot website/blog. It’s now time to see the results of your hard work. One way of measuring the results is through the page performance tool. Learning how to organize this tool can help you discover whether your inbound marketing strategy is working or not.&lt;/p&gt;
-
-&lt;p&gt;When you navigate on your HubSpot website to the “&lt;strong&gt;&lt;em&gt;Page Performance tool&lt;/em&gt;&lt;/strong&gt;” that’s located under the “&lt;strong&gt;&lt;em&gt;Reports&lt;/em&gt;&lt;/strong&gt;” tab, you’ll come across the various statistics for total views, keywords, and inbound links.  These statistics will change depending on the period that you’ve selected—today, this week, or previous month.  If you want to analyze the results on a weekly basis, or monthly basis, then you can use this tool. The statistics that you get from these reports are important in helping you to find out whether your marketing strategy is working or not.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Learn to segment your contacts&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The inbound marketing strategy is dependent on sending the &lt;em&gt;right content&lt;/em&gt; to the &lt;em&gt;right contacts&lt;/em&gt; at an &lt;em&gt;appropriate time&lt;/em&gt;. You wouldn’t want to send content that’s not relevant to your client as this may have adverse effects on your marketing strategy. Therefore, you should learn how to segment your contacts so that you only send the relevant information to the right customers or leads.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, your HubSpot’s COS has the integrated functionalities that can help you segment and organize your contacts. You can use the static method of holding the contact lists or the efficient method. A fixed contacts list is useful if you’d like to make a follow-up information for those leads that signed for your promotional e-book or whitepaper at a particular time or place.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, a quick contact list—a list that continuously updates with each new contact that’s added who meets the list criteria—is a useful tool that can help you stay connected with your clients. This is because, this list will always have an updated contacts—whether they are leads or customers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Learn to manage your calendar well&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Planning to send posts—whether blog posts or social media posts—can be tedious and time-consuming. However, with a well-managed schedule, you can keep track of which type of content should be posted at what time to which groups of people.  For instance, you can use the HubSpot’s social media content calendar template to help you manage the social media posts.&lt;/p&gt;
-
-&lt;p&gt;Such a tool is important in helping you to manage your social media campaign as you scale up your social media marketing. Well, if you follow the four tips to the later, then you can maximize your HubSpot’s website for your business bottom line.&lt;/p&gt;
 </description>
     </item>
     

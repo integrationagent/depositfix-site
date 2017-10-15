@@ -344,6 +344,21 @@ Check <a href="http://www.depositfix.com/">DepositFix</a>.</p>
         var trackcmp = document.createElement("script");
         trackcmp.async = true;
         trackcmp.type = 'text/javascript';
+        trackcmp.src = '//trackcmp.net/visit?actid=0000000&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+        var trackcmp_s = document.getElementsByTagName("script");
+        if (trackcmp_s.length) {
+            trackcmp_s[0].parentNode.appendChild(trackcmp);
+        } else {
+            var trackcmp_h = document.getElementsByTagName("head");
+            trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var trackcmp_email = '';
+        var trackcmp = document.createElement("script");
+        trackcmp.async = true;
+        trackcmp.type = 'text/javascript';
         trackcmp.src = '//trackcmp.net/visit?actid=609722146&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
         var trackcmp_s = document.getElementsByTagName("script");
         if (trackcmp_s.length) {
@@ -353,6 +368,7 @@ Check <a href="http://www.depositfix.com/">DepositFix</a>.</p>
             trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
         }
     </script>
+    <script src="https://depositfix.activehosted.com/f/embed.php?id=2" type="text/javascript" charset="utf-8"></script>
 
     
     <script type="text/javascript" id="inspectletjs">

@@ -137,7 +137,7 @@
     <h1>How It Works</h1>
     <div class="row">
         <div class="col-md-5 col-md-offset-1">
-            <h2>Integrate Payments with HubSpot Forms</h2>
+            <h2>Accept Payments with HubSpot Forms</h2>
             DepositFix dynamically ads payment fields to your HubSpot forms.
             <br><br>
             Payment information goes to Stripe and other user data is sent to HubSpot at a single click.
@@ -398,6 +398,21 @@
         var trackcmp = document.createElement("script");
         trackcmp.async = true;
         trackcmp.type = 'text/javascript';
+        trackcmp.src = '//trackcmp.net/visit?actid=0000000&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+        var trackcmp_s = document.getElementsByTagName("script");
+        if (trackcmp_s.length) {
+            trackcmp_s[0].parentNode.appendChild(trackcmp);
+        } else {
+            var trackcmp_h = document.getElementsByTagName("head");
+            trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+        }
+    </script>
+
+    <script type="text/javascript">
+        var trackcmp_email = '';
+        var trackcmp = document.createElement("script");
+        trackcmp.async = true;
+        trackcmp.type = 'text/javascript';
         trackcmp.src = '//trackcmp.net/visit?actid=609722146&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
         var trackcmp_s = document.getElementsByTagName("script");
         if (trackcmp_s.length) {
@@ -407,6 +422,7 @@
             trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
         }
     </script>
+    <script src="https://depositfix.activehosted.com/f/embed.php?id=2" type="text/javascript" charset="utf-8"></script>
 
     
     <script type="text/javascript" id="inspectletjs">
