@@ -1,7 +1,6 @@
 body {
     margin-top: 60px;
     background-color: #f9f9f9;
-    font-family: 'Lato', sans-serif;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -24,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     width: 100%;
     z-index: 3;
-    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #336699;
 }
 
@@ -40,7 +39,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .cta{
-    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 15px;
     background-color: #336699;
     color: #fff;
@@ -91,15 +90,11 @@ hr.sep{
 }
 
 .heading-plato.jumbotron{
-    background: #e6e4e2;
-    background-image: url(/img/hero.jpg);
-    color: #336699;
+    background: #336699;
+    background-image: url(https://dx5683gi1tv0w.cloudfront.net/dtrjyhj9q/image/upload/w_1500/s3/img0894edcf5);
+    color: #fff;
     border-bottom: 1px solid #D6DDE3;
     margin-bottom: 0px;
-    background-size: 850px;
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 550px;
 }
 
 .heading-plato h1{
