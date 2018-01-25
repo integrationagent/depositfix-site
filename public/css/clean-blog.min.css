@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    /*font-family: 'Open Sans', Arial, sans-serif;*/
     font-size: 20px;
     color: #404040;
     margin-top: 60px;
@@ -25,7 +25,7 @@ p a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
     font-weight: 800
 }
 
@@ -61,7 +61,7 @@ hr.small {
     left: 0;
     width: 100%;
     z-index: 3;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
     background-color: #336699;
 }
 
@@ -181,7 +181,7 @@ hr.small {
     font-size: 24px;
     line-height: 1.1;
     display: block;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
     font-weight: 300;
     margin: 10px 0 0
 }
@@ -202,7 +202,7 @@ hr.small {
 }
 
 .intro-header .post-heading .subheading {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
     font-size: 24px;
     margin: 10px 0 30px;
     font-weight: 600
