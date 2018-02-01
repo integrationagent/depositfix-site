@@ -37,7 +37,7 @@ disqusShortname = "integrationagent"
 
 [[menu.main]]
   name = "Start Your Free Trial"
-  url = "/https://app.depositfix.com?ref=lp"
+  url = "https://app.depositfix.com?ref=lp"
   weight = -140
 
 
