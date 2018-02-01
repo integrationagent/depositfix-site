@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <meta name="google-site-verification" content="8VRSKoT1h1-IwFeBxwFruohSNCQ26irCwmBYNoZrg4Y" />
     <link rel="shortcut icon" href="https://www.depositfix.com/img/favicon.png">
-    <title>How to integrate HubSpot form and PayPal</title>
+    <title>Single Plan for everyone</title>
 
     
 
@@ -81,140 +81,56 @@
     </nav>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+                <h1>Single Plan for everyone</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container content">
-	<div class="row">
-		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-			<article class="post -page">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+            <article>
 
-				
-				<header class="entry-header">
-					<h1 class="entry-title">
-						<a href="https://www.depositfix.com/hubspot-paypal" rel="">How to integrate HubSpot form and PayPal</a>
-					</h1>
-				</header>
-				
-				<div class="blog-author">
-					By Denis Lunev
-				</div>
-				
-				<div class="entry-content">
-					
-					<figure>
-					<img src="https://www.depositfix.com//img/hubspot-paypal/cover.png"/>
-					    </figure>
-						
+                <div class="row pricing-page well">
+    <div class="col-md-4">
+        <h1 class="price">$50 per month<sup>*</sup></h1>
+        <div class="trial">Start your 14-day free trial today.</div>
+        <div>
+            <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation">
+                <button type="button" class="btn btn-success btn-lg">Get Started</button>
+            </a>
+        </div>
+        <div class="creditcard">No credit card required</div>
+    </div>
+    <div class="col-md-4 features">
+        <ul> 
+            <li>Unlimited transactions</li>
+            <li>Unlimited forms</li>
+            <li>Unlimited subscriptions</li>
+            <li>Multi currency support</li>
+            <li>Online donations</li>
+            <li>HubSpot CRM extension</li>
+        </ul>
+    </div>
+    <div class="col-md-4 quote">
+        <div>“The support of DepositFix was awesome and this really worked just as easy as it sounded like it would.”</div>
+        <div class="author">Stephanie Mondeau, Lake Trust Credit Union</div>
+    </div>
+</div>
 
-					<p>When you need to collect payments from your website PayPal button might be the best solution.</p>
-
-<p>However, if you need to collect some information to send to HubSpot form first before the payment – that&rsquo;s not that easy.</p>
-
-<p>The following code allows you to redirect your customers to PayPal account after after filling out the form.</p>
-
-<p><img src="https://www.depositfix.com/img/hubspotForm.png" /></p>
-
-<p>After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.</p>
-
-<p><img src="https://www.depositfix.com/img/paypalcheckout.png" /></p>
-
-<p>Here is the complete source code:</p>
-
-<pre><code>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;
-&lt;!--[if lte IE 8]&gt;
-&lt;script charset=&quot;utf-8&quot; type=&quot;text/javascript&quot; src=&quot;//js.hsforms.net/forms/v2-legacy.js&quot;&gt;&lt;/script&gt;
-&lt;![endif]--&gt;
-&lt;script charset=&quot;utf-8&quot; type=&quot;text/javascript&quot; src=&quot;//js.hsforms.net/forms/v2.js&quot;&gt;&lt;/script&gt;
-
-&lt;form action=&quot;https://www.paypal.com/cgi-bin/webscr&quot; method=&quot;post&quot; id=&quot;paypalform&quot;&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;item_name&quot; value=&quot;&quot;/&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;amount&quot; value=&quot;&quot;/&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;quantity&quot; value=&quot;1&quot;&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;cmd&quot; value=&quot;_xclick&quot;/&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;custom&quot; value=&quot;true&quot;/&gt;
-    &lt;input type=&quot;hidden&quot; name=&quot;business&quot; value=&quot;&quot;/&gt;
-&lt;/form&gt;
-&lt;div id=&quot;hs-form-container&quot;&gt;&lt;/div&gt;
+<div class="price-disclaimer">*Price will go up on March 1st</div>
+<div class="gap"></div>
 
 
-&lt;script&gt;
+            </article>
 
-    var HubSpotPayPal = {
-
-        init: function (params) {
-
-            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
-
-            hbspt.forms.create({
-                portalId: params.hubSpotPortalId,
-                formId: params.hubSpotFormId,
-                target: &quot;#hs-form-container&quot;,
-                onFormSubmit: function ($form) {
-                    setTimeout(function () {
-                        $(&quot;#paypalform&quot;).submit();
-                    }, 10);
-                    return false;
-                }
-            });
-        },
-
-        initPayPalForm: function(paypalEmail, amount, productName){
-
-            $(&quot;#paypalform [name='business']&quot;).val(paypalEmail);
-            $(&quot;#paypalform [name='amount']&quot;).val(amount);
-            $(&quot;#paypalform [name='item_name']&quot;).val(productName);
-        }
-    }
-
-    HubSpotPayPal.init({
-        paypalEmail: &quot;den.lunev@gmail.com&quot;,
-        amount: &quot;170&quot;,
-        productName: &quot;My New Product&quot;,
-        hubSpotPortalId: &quot;2767376&quot;,
-        hubSpotFormId: &quot;14109ada-6a61-4d63-a1db-430b6ce0926d&quot;
-    });
-
-&lt;/script&gt;
-
-
-</code></pre>
-
-<p>You just need to update the last part:</p>
-
-<pre><code>HubSpotPayPal.init({
-    paypalEmail: &quot;[Your PayPal business account]&quot;,
-    amount: &quot;[Amount]&quot;,
-    productName: &quot;[Name of your product or service]&quot;,
-    hubSpotPortalId: &quot;[Your HubSpot portal Id]&quot;,
-    hubSpotFormId: &quot;[Your HubSpot form Id]&quot;
-});
-
-</code></pre>
-
-<p>Looking for complete payment solution for HubSpot?
-Check <a href="http://www.depositfix.com/">DepositFix</a>.</p>
-
-				</div>
-				
-
-				<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'integrationagent';
-    var disqus_identifier = 'https:\/\/www.depositfix.com\/hubspot-paypal';
-    var disqus_title = 'How to integrate HubSpot form and PayPal';
-    var disqus_url = 'https:\/\/www.depositfix.com\/hubspot-paypal';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-			</article>
-
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
     
