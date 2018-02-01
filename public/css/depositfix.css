@@ -38,6 +38,15 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
 }
 
+.navbar-nav li:last-child a{
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #337ab7;
+
+}
+
 .cta{
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 15px;
@@ -239,3 +248,62 @@ footer a{
     padding-top: 40px;
 }
 
+
+.pricing-page{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.pricing-page .price{
+    margin-top: 1px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.pricing-page .trial{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 18px;
+}
+
+.pricing-page .creditcard{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.pricing-page .features{
+    text-align: left;
+}
+
+.pricing-page .quote{
+    color: #888;
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.pricing-page .quote .author{
+    text-align: left;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #888;
+}
+
+.price-disclaimer {
+    margin-top: 15px;
+    font-style: normal;
+    color: #888;
+    font-size: 16px;
+}
+
+.gap{
+    margin-bottom: 150px;
+}
+
+.team img{
+    width: 150px;
+}

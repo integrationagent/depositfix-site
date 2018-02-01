@@ -19,14 +19,10 @@ disqusShortname = "integrationagent"
   Ganalytics = "UA-7712728-16"
 
 [[menu.main]]
-  name = "Login"
-  url = "https://app.depositfix.com?ref=lp"
-  weight = -200
-
-[[menu.main]]
-  name = "Create Account"
-  url = "https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation"
-  weight = -180
+  name = "Pricing"
+  url = "/pricing"
+  weight = -170
+  style = "trial"
 
 [[menu.main]]
   name = "About Us"
@@ -34,14 +30,14 @@ disqusShortname = "integrationagent"
   weight = -160
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog"
+  name = "Login"
+  url = "https://app.depositfix.com?ref=lp"
   weight = -150
 
 
 [[menu.main]]
-  name = "Setup Instructions"
-  url = "/setup"
+  name = "Start Your Free Trial"
+  url = "/https://app.depositfix.com?ref=lp"
   weight = -140
 
 

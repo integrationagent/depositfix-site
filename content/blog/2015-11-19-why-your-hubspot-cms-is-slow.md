@@ -10,6 +10,7 @@ categories:
   - HubSpot
 
 ---
+
 Do you know why your HubSpot marketing website has suddenly slowed down?
 
 Consider this—a visitor who’s interested in your product enters your URL in her browser so that she can access more information about your products after finding your site on a search engine. But instead of your home page loading faster, your visitor has to keep waiting for your website pages to load slowly, one at a time.

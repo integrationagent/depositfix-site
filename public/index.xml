@@ -28,27 +28,38 @@
       <guid>https://www.depositfix.com/about/</guid>
       <description>&lt;hr /&gt;
 
-&lt;p&gt;@@@@@
-&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row team&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
-        &lt;img src=&#34;https://www.depositfix.com/img/headshot-title.png&#34;&gt;
+        &lt;img src=&#34;https://www.depositfix.com/img/avatar/denis.png&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-8&#34;&gt;
        DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses connect e-commerce and marketing using HubSpot.
        &lt;br&gt;&lt;br&gt;
-       Denis is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
+       &lt;b&gt;Denis&lt;/b&gt; is an e-commerce consultant with more than 10 years of experience in software development for variety of companies, including fast growing startups as well as large enterprise corporations.
     &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
-&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row team&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
-        &lt;img src=&#34;https://www.depositfix.com/img/yar.png&#34;&gt;
+        &lt;img src=&#34;https://www.depositfix.com/img/avatar/yaroslav.png&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-8&#34;&gt;
        &lt;br&gt;
-       Yaroslav is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
+       &lt;b&gt;Yaroslav&lt;/b&gt; is an enterprise developer with multiple years of experience working on integrations and business applications for banks and telecommunication companies.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&#34;row team&#34;&gt;
+    &lt;div class=&#34;col-md-2&#34;&gt;
+        &lt;img src=&#34;https://www.depositfix.com/img/avatar/sam.png&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-8&#34;&gt;
+       &lt;br&gt;
+       &lt;b&gt;Sam&lt;/b&gt; is a HubSpot certified inbound/email marketer and an IT graduate, with more than 10 years of combined experience in customer success, sales, online marketing, and broadcast media.
     &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -124,36 +135,6 @@ For monitoring of our services we use &lt;a href=&#34;https://uptimerobot.com/&#
       <guid>https://www.depositfix.com/payment/</guid>
       <description>&lt;script src=&#34;https://depositfix.s3.amazonaws.com/depositfixform.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://www.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pricing</title>
-      <link>https://www.depositfix.com/pricing</link>
-      <pubDate>Thu, 23 Feb 2017 14:49:22 -0600</pubDate>
-      
-      <guid>https://www.depositfix.com/pricing</guid>
-      <description>&lt;div class=&#34;pricing&#34;&gt;
-&lt;div class=&#34;container&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;div class=&#34;post-heading&#34;&gt;
-                &lt;h1&gt;Pricing: $50/month&lt;/h1&gt;
-                &lt;p&gt;Includes unlimited transactions, unlimited forms, Stripe subscriptions, &lt;br&gt;dynamic amounts, multi currency support and other features&lt;/p&gt;
-
-                &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34;&gt;
-                    &lt;button type=&#34;button&#34; class=&#34;btn btn-danger btn-lg&#34;&gt;Start Accepting Payments&lt;/button&gt;
-                &lt;/a&gt;
-
-                &lt;div class=&#34;trial-text&#34;&gt;15 days free trial, no credit card required&lt;/div&gt;
-
-&lt;pre&gt;&lt;code&gt;        &amp;lt;/div&amp;gt;
-    &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -669,6 +650,44 @@ your social media content is vital to the success of your marketing
 efforts. That’s why you need to incorporate HubSpot’s social media tools
 such as Social Inbox, Publishing, Monitoring, Reporting and Settings to
 attain your bottom line.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single Plan for everyone</title>
+      <link>https://www.depositfix.com/pricing</link>
+      <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
+      
+      <guid>https://www.depositfix.com/pricing</guid>
+      <description>&lt;div class=&#34;row pricing-page well&#34;&gt;
+    &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;h1 class=&#34;price&#34;&gt;$50 per month&lt;sup&gt;*&lt;/sup&gt;&lt;/h1&gt;
+        &lt;div class=&#34;trial&#34;&gt;Start your 14-day free trial today.&lt;/div&gt;
+        &lt;div&gt;
+            &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34;&gt;
+                &lt;button type=&#34;button&#34; class=&#34;btn btn-success btn-lg&#34;&gt;Get Started&lt;/button&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;creditcard&#34;&gt;No credit card required&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-4 features&#34;&gt;
+        &lt;ul&gt; 
+            &lt;li&gt;Unlimited transactions&lt;/li&gt;
+            &lt;li&gt;Unlimited forms&lt;/li&gt;
+            &lt;li&gt;Unlimited subscriptions&lt;/li&gt;
+            &lt;li&gt;Multi currency support&lt;/li&gt;
+            &lt;li&gt;Online donations&lt;/li&gt;
+            &lt;li&gt;HubSpot CRM extension&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-4 quote&#34;&gt;
+        &lt;div&gt;“The support of DepositFix was awesome and this really worked just as easy as it sounded like it would.”&lt;/div&gt;
+        &lt;div class=&#34;author&#34;&gt;Stephanie Mondeau, Lake Trust Credit Union&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;price-disclaimer&#34;&gt;*Price will go up on March 1st&lt;/div&gt;
+&lt;div class=&#34;gap&#34;&gt;&lt;/div&gt;
 </description>
     </item>
     

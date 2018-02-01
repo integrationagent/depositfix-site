@@ -1,26 +1,37 @@
 +++
-title = "Pricing"
+date = "2016-06-25T07:20:34-05:00"
 draft = false
-date = "2017-02-23T14:49:22-06:00"
+title = "Single Plan for everyone"
 url = "/pricing"
+
 +++
 
-<div class="pricing">
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="post-heading">
-                <h1>Pricing: $50/month</h1>
-                <p>Includes unlimited transactions, unlimited forms, Stripe subscriptions, <br>dynamic amounts, multi currency support and other features</p>
-
-                <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation">
-                    <button type="button" class="btn btn-danger btn-lg">Start Accepting Payments</button>
-                </a>
-
-                <div class="trial-text">15 days free trial, no credit card required</div>
-
-            </div>
+<div class="row pricing-page well">
+    <div class="col-md-4">
+        <h1 class="price">$50 per month<sup>*</sup></h1>
+        <div class="trial">Start your 14-day free trial today.</div>
+        <div>
+            <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation">
+                <button type="button" class="btn btn-success btn-lg">Get Started</button>
+            </a>
         </div>
+        <div class="creditcard">No credit card required</div>
+    </div>
+    <div class="col-md-4 features">
+        <ul> 
+            <li>Unlimited transactions</li>
+            <li>Unlimited forms</li>
+            <li>Unlimited subscriptions</li>
+            <li>Multi currency support</li>
+            <li>Online donations</li>
+            <li>HubSpot CRM extension</li>
+        </ul>
+    </div>
+    <div class="col-md-4 quote">
+        <div>“The support of DepositFix was awesome and this really worked just as easy as it sounded like it would.”</div>
+        <div class="author">Stephanie Mondeau, Lake Trust Credit Union</div>
     </div>
 </div>
-</div>
+
+<div class="price-disclaimer">*Price will go up on March 1st</div>
+<div class="gap"></div>
