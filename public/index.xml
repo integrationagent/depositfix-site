@@ -6,7 +6,7 @@
     <description>Recent content on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Integration Agent 2017</copyright>
+    <copyright>Integration Agent 2018</copyright>
     <lastBuildDate>Thu, 16 Jun 2016 11:05:39 -0500</lastBuildDate>
     <atom:link href="https://www.depositfix.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -664,7 +664,7 @@ attain your bottom line.&lt;/p&gt;
         &lt;h1 class=&#34;price&#34;&gt;$50 per month&lt;sup&gt;*&lt;/sup&gt;&lt;/h1&gt;
         &lt;div class=&#34;trial&#34;&gt;Start your 14-day free trial today.&lt;/div&gt;
         &lt;div&gt;
-            &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34;&gt;
+            &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34; class=&#34;goallink&#34; data-clicky=&#34;6148&#34; data-goal=&#34;pricing_trial &#34;&gt;
                 &lt;button type=&#34;button&#34; class=&#34;btn btn-success btn-lg&#34;&gt;Get Started&lt;/button&gt;
             &lt;/a&gt;
         &lt;/div&gt;

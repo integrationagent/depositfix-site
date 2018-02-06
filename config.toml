@@ -4,7 +4,7 @@ canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
-copyright = "Integration Agent 2017"
+copyright = "Integration Agent 2018"
 disqusShortname = "integrationagent"
 
 

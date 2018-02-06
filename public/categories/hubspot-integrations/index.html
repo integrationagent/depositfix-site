@@ -59,19 +59,19 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li>
-                        <a href="https://www.depositfix.com/pricing" class="-170">Pricing</a>
+                        <a href="https://www.depositfix.com/pricing" > Pricing</a>
                     </li>
                     
                     <li>
-                        <a href="https://www.depositfix.com/about" class="-160">About Us</a>
+                        <a href="https://www.depositfix.com/about" > About Us</a>
                     </li>
                     
                     <li>
-                        <a href="https://app.depositfix.com?ref=lp" class="-150">Login</a>
+                        <a href="https://app.depositfix.com?ref=lp" > Login</a>
                     </li>
                     
                     <li>
-                        <a href="https://app.depositfix.com?ref=lp" class="-140">Start Your Free Trial</a>
+                        <a href="https://app.depositfix.com?ref=lp"  class="goallink" data-clicky="6147" data-goal="header_trial" > Start Your Free Trial</a>
                     </li>
                     
                   </ul>
@@ -159,7 +159,7 @@
                 <div class="col-md-4 col-md-offset-1 footer-item">
                     <div class="subitem">Product</div>
                     <div>
-                        <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation">Create Account</a>
+                        <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation" class="goallink" data-clicky="6151" data-goal="footer_trial">Create Account</a>
                     </div>
                     <div>
                         <a href="https://www.depositfix.com/setup">Setup Instructions</a>
@@ -189,7 +189,7 @@
             </div>
             <div class="row copy">
                 <div class="col-md-offset-1 col-md-8">
-                    <a href="https://integrationagent.com/">Integration Agent &copy; 2017</a> //
+                    <a href="https://integrationagent.com/">Integration Agent &copy; 2018</a> //
                     <a href="https://www.depositfix.com/privacy">Privacy Policy</a>
                 </div>
             </div>
@@ -330,6 +330,26 @@
     </script>
 
 
+    <script>
+
+        $(".goallink").click(function(){
+            var href = $(this).attr("href");
+            var goal = $(this).data("goal");
+            var clickygoal = $(this).data("clicky");
+
+            clicky.goal(clickygoal);
+            woopra.track("trialclick", {
+                location: goal
+            });
+            ga('send', 'event', 'TrialClick', goal);
+
+
+            window.location.href = href;
+
+            return false;
+        });
+
+    </script>
 
     
         

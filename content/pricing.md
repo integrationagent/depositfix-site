@@ -11,7 +11,7 @@ url = "/pricing"
         <h1 class="price">$50 per month<sup>*</sup></h1>
         <div class="trial">Start your 14-day free trial today.</div>
         <div>
-            <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation">
+            <a href="https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&response_type=code&redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&scope=contacts+timeline+forms+content&state=7fbf12dd-78ee-4890-b047-652a1e84d22d&optional_scope=automation" class="goallink" data-clicky="6148" data-goal="pricing_trial ">
                 <button type="button" class="btn btn-success btn-lg">Get Started</button>
             </a>
         </div>
