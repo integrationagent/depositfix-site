@@ -654,14 +654,15 @@ attain your bottom line.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Single Plan for everyone</title>
+      <title>Pricing</title>
       <link>https://www.depositfix.com/pricing</link>
       <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
       
       <guid>https://www.depositfix.com/pricing</guid>
       <description>&lt;div class=&#34;row pricing-page well&#34;&gt;
     &lt;div class=&#34;col-md-4&#34;&gt;
-        &lt;h1 class=&#34;price&#34;&gt;$79 per month&lt;/h1&gt;
+        &lt;h1 class=&#34;price&#34;&gt;$79 per month&lt;sup&gt;*&lt;/sup&gt;&lt;/h1&gt;
+        &lt;div style=&#34;font-size: 14px;&#34;&gt;&lt;sup&gt;*&lt;/sup&gt;For the first $50,000 in monthly revenue&lt;/div&gt;
         &lt;div class=&#34;trial&#34;&gt;Start your 14-day free trial today.&lt;/div&gt;
         &lt;div&gt;
             &lt;a href=&#34;https://app.hubspot.com/oauth/authorize?client_id=d227f78d-1a70-4760-a0da-465401a4788b&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fapp.depositfix.com%2Fauth%2Fhubspot&amp;scope=contacts+timeline+forms+content&amp;state=7fbf12dd-78ee-4890-b047-652a1e84d22d&amp;optional_scope=automation&#34; class=&#34;goallink&#34; data-clicky=&#34;6148&#34; data-goal=&#34;pricing_trial &#34;&gt;
@@ -672,7 +673,6 @@ attain your bottom line.&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-4 features&#34;&gt;
         &lt;ul&gt; 
-            &lt;li&gt;Unlimited transactions&lt;/li&gt;
             &lt;li&gt;Unlimited forms&lt;/li&gt;
             &lt;li&gt;Unlimited subscriptions&lt;/li&gt;
             &lt;li&gt;Multi currency support&lt;/li&gt;
