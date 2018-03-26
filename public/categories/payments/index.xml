@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Payments on Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/categories/payments/index.xml</link>
+    <link>https://old.depositfix.com/categories/payments/index.xml</link>
     <description>Recent content in Payments on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
-    <atom:link href="https://www.depositfix.com/categories/payments/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/categories/payments/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to integrate HubSpot form and PayPal</title>
-      <link>https://www.depositfix.com/hubspot-paypal</link>
+      <link>https://old.depositfix.com/hubspot-paypal</link>
       <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
       
-      <guid>https://www.depositfix.com/hubspot-paypal</guid>
+      <guid>https://old.depositfix.com/hubspot-paypal</guid>
       <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
 
 &lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
 
 &lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the complete source code:&lt;/p&gt;
 
@@ -107,10 +107,10 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
     
     <item>
       <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
-      <link>https://www.depositfix.com/setup-ssl</link>
+      <link>https://old.depositfix.com/setup-ssl</link>
       <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/setup-ssl</guid>
+      <guid>https://old.depositfix.com/setup-ssl</guid>
       <description>
 
 &lt;p&gt;What makes a great online store? It used to be that mobile optimization,
@@ -153,7 +153,7 @@ transactions that take place between customers and your online store.&lt;/p&gt;
 &lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
 &lt;li&gt;The website address starting with https://
 &lt;br/&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
 &lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -188,7 +188,7 @@ business.&lt;/p&gt;
 &lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
 
 &lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
-&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
@@ -211,10 +211,10 @@ It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right co
     
     <item>
       <title>Differences between Payment Gateway and a Merchant Account</title>
-      <link>https://www.depositfix.com/payment-gateway-merchant-account</link>
+      <link>https://old.depositfix.com/payment-gateway-merchant-account</link>
       <pubDate>Fri, 15 Jul 2016 06:24:27 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/payment-gateway-merchant-account</guid>
+      <guid>https://old.depositfix.com/payment-gateway-merchant-account</guid>
       <description>
 
 &lt;p&gt;Virtually all businesses—from big-box retailers to Etsy merchants, from
@@ -317,7 +317,7 @@ devices.&lt;/p&gt;
 	Which payment gateway has the smallest fees?
 
 		&lt;a href=&#39;http://www.depositfix.com/calc/&#39;&gt;
-			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://old.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
 		&lt;/a&gt;
 &lt;/div&gt;
 

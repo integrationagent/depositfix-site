@@ -1,4 +1,4 @@
-baseurl = "https://www.depositfix.com"
+baseurl = "https://old.depositfix.com"
 title = "Payment Solution for HubSpot"
 canonifyurls = true
 paginate = 10

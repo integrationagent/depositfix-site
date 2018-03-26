@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/index.xml</link>
+    <link>https://old.depositfix.com/index.xml</link>
     <description>Recent content on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
     <lastBuildDate>Thu, 16 Jun 2016 11:05:39 -0500</lastBuildDate>
-    <atom:link href="https://www.depositfix.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>contact</title>
-      <link>https://www.depositfix.com/contact/</link>
+      <link>https://old.depositfix.com/contact/</link>
       <pubDate>Thu, 16 Jun 2016 11:05:39 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/contact/</guid>
+      <guid>https://old.depositfix.com/contact/</guid>
       <description>&lt;p&gt;Contacts&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About Us</title>
-      <link>https://www.depositfix.com/about/</link>
+      <link>https://old.depositfix.com/about/</link>
       <pubDate>Fri, 16 Jun 2017 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/about/</guid>
+      <guid>https://old.depositfix.com/about/</guid>
       <description>&lt;hr /&gt;
 
 &lt;div class=&#34;row team&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
-        &lt;img src=&#34;https://www.depositfix.com/img/avatar/denis.png&#34;&gt;
+        &lt;img src=&#34;https://old.depositfix.com/img/avatar/denis.png&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-8&#34;&gt;
        DepositFix was founded in beautiful Chicago, IL by Denis Lunev to help businesses connect e-commerce and marketing using HubSpot.
@@ -43,7 +43,7 @@
 
 &lt;div class=&#34;row team&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
-        &lt;img src=&#34;https://www.depositfix.com/img/avatar/yaroslav.png&#34;&gt;
+        &lt;img src=&#34;https://old.depositfix.com/img/avatar/yaroslav.png&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-8&#34;&gt;
        &lt;br&gt;
@@ -55,7 +55,7 @@
 
 &lt;div class=&#34;row team&#34;&gt;
     &lt;div class=&#34;col-md-2&#34;&gt;
-        &lt;img src=&#34;https://www.depositfix.com/img/avatar/sam.png&#34;&gt;
+        &lt;img src=&#34;https://old.depositfix.com/img/avatar/sam.png&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;col-md-8&#34;&gt;
        &lt;br&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Security Information</title>
-      <link>https://www.depositfix.com/security/</link>
+      <link>https://old.depositfix.com/security/</link>
       <pubDate>Fri, 16 Jun 2017 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/security/</guid>
+      <guid>https://old.depositfix.com/security/</guid>
       <description>&lt;p&gt;Inside DepositFix we keep data about contacts (name, email, contact id from Stripe) and transactions (date, amount, product name, transaction id from Stripe). This information is kept to help you segment the purchases.
 Credit card information (number, cvc, exp date) never sent to our servers, we use stripe tokens to charge the cards and they are not stored in our database.&lt;/p&gt;
 
@@ -129,21 +129,21 @@ For monitoring of our services we use &lt;a href=&#34;https://uptimerobot.com/&#
     
     <item>
       <title>DepositFix Payment</title>
-      <link>https://www.depositfix.com/payment/</link>
+      <link>https://old.depositfix.com/payment/</link>
       <pubDate>Tue, 04 Apr 2017 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/payment/</guid>
+      <guid>https://old.depositfix.com/payment/</guid>
       <description>&lt;script src=&#34;https://depositfix.s3.amazonaws.com/depositfixform.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://www.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://old.depositfix.com/js/payment.js&#34; type=&#34;text/javascript&#34; id=&#34;df-script&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://www.depositfix.com/privacy/</link>
+      <link>https://old.depositfix.com/privacy/</link>
       <pubDate>Thu, 23 Feb 2017 14:49:22 -0600</pubDate>
       
-      <guid>https://www.depositfix.com/privacy/</guid>
+      <guid>https://old.depositfix.com/privacy/</guid>
       <description>&lt;style&gt;
     #iubenda_policy .iub_content{
         padding: 0px;
@@ -161,21 +161,21 @@ For monitoring of our services we use &lt;a href=&#34;https://uptimerobot.com/&#
     
     <item>
       <title>How to integrate HubSpot form and PayPal</title>
-      <link>https://www.depositfix.com/hubspot-paypal</link>
+      <link>https://old.depositfix.com/hubspot-paypal</link>
       <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
       
-      <guid>https://www.depositfix.com/hubspot-paypal</guid>
+      <guid>https://old.depositfix.com/hubspot-paypal</guid>
       <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
 
 &lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
 
 &lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the complete source code:&lt;/p&gt;
 
@@ -257,10 +257,10 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
     
     <item>
       <title>DepositFix Setup</title>
-      <link>https://www.depositfix.com/setup/</link>
+      <link>https://old.depositfix.com/setup/</link>
       <pubDate>Thu, 18 Aug 2016 15:09:13 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/setup/</guid>
+      <guid>https://old.depositfix.com/setup/</guid>
       <description>
 
 &lt;style&gt;
@@ -297,10 +297,10 @@ a.helpdesk-item{
     
     <item>
       <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
-      <link>https://www.depositfix.com/setup-ssl</link>
+      <link>https://old.depositfix.com/setup-ssl</link>
       <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/setup-ssl</guid>
+      <guid>https://old.depositfix.com/setup-ssl</guid>
       <description>
 
 &lt;p&gt;What makes a great online store? It used to be that mobile optimization,
@@ -343,7 +343,7 @@ transactions that take place between customers and your online store.&lt;/p&gt;
 &lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
 &lt;li&gt;The website address starting with https://
 &lt;br/&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
 &lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -378,7 +378,7 @@ business.&lt;/p&gt;
 &lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
 
 &lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
-&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
@@ -401,10 +401,10 @@ It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right co
     
     <item>
       <title>Differences between Payment Gateway and a Merchant Account</title>
-      <link>https://www.depositfix.com/payment-gateway-merchant-account</link>
+      <link>https://old.depositfix.com/payment-gateway-merchant-account</link>
       <pubDate>Fri, 15 Jul 2016 06:24:27 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/payment-gateway-merchant-account</guid>
+      <guid>https://old.depositfix.com/payment-gateway-merchant-account</guid>
       <description>
 
 &lt;p&gt;Virtually all businesses—from big-box retailers to Etsy merchants, from
@@ -507,7 +507,7 @@ devices.&lt;/p&gt;
 	Which payment gateway has the smallest fees?
 
 		&lt;a href=&#39;http://www.depositfix.com/calc/&#39;&gt;
-			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://old.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
 		&lt;/a&gt;
 &lt;/div&gt;
 
@@ -525,10 +525,10 @@ and merchant accounts.&lt;/p&gt;
     
     <item>
       <title>5 HubSpot’s COS Best Tools that Can Power Your Social Media Strategies</title>
-      <link>https://www.depositfix.com/social-media-tools</link>
+      <link>https://old.depositfix.com/social-media-tools</link>
       <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/social-media-tools</guid>
+      <guid>https://old.depositfix.com/social-media-tools</guid>
       <description>
 
 &lt;p&gt;Developing a website (and ultimately a blog) is the first step towards
@@ -557,7 +557,7 @@ social media marketing:&lt;/p&gt;
 
 &lt;h3 id=&#34;1-social-media-inbox&#34;&gt;#1: Social Media Inbox&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you share tons of content on social media platforms, remembering
 login information for all your clients can be a herculean task. Instead
@@ -581,7 +581,7 @@ compared to your opponent.&lt;/p&gt;
 
 &lt;h3 id=&#34;2-social-monitoring&#34;&gt;#2: Social Monitoring&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An effective digital marketing strategy is one that allows a marketer to
 connect with customers at a personalized level. Remember, understanding
@@ -597,7 +597,7 @@ with all your prospects, leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;3-social-media-publishing&#34;&gt;#3: Social Media Publishing&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The HubSpot’s Social Publishing tool allows you to post to all the
 social media accounts in your organization. Remember sharing the content
@@ -612,7 +612,7 @@ all your leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;4-social-media-reporting&#34;&gt;#4: Social Media Reporting&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You&amp;rsquo;ve scheduled and published your social media content. You’ve gone
 ahead to engage with your social media followers. So, what next? You
@@ -627,7 +627,7 @@ can help you evaluate the effectiveness of your marketing efforts.&lt;/p&gt;
 
 &lt;h3 id=&#34;5-social-media-settings&#34;&gt;#5: Social Media Settings&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Different social media platforms require different publishing schedules.
 For instance, Facebook may require fewer publications of the same
@@ -655,10 +655,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>Pricing</title>
-      <link>https://www.depositfix.com/pricing</link>
+      <link>https://old.depositfix.com/pricing</link>
       <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/pricing</guid>
+      <guid>https://old.depositfix.com/pricing</guid>
       <description>&lt;div class=&#34;row pricing-page well&#34;&gt;
     &lt;div class=&#34;col-md-4&#34;&gt;
         &lt;h1 class=&#34;price&#34;&gt;$79 per month&lt;sup&gt;*&lt;/sup&gt;&lt;/h1&gt;
@@ -692,41 +692,41 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>Features</title>
-      <link>https://www.depositfix.com/features/</link>
+      <link>https://old.depositfix.com/features/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/features/</guid>
+      <guid>https://old.depositfix.com/features/</guid>
       <description>&lt;p&gt;Enhanced HubSpot forms with payment fields. Credit card information is passed to payment gateway only and not saved to any other places so you don&#39;t violate any security standards.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/screenshots/payment_form.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/screenshots/payment_form.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;h2&gt;Post Payment Updates&lt;/h2&gt;&lt;/p&gt;
 
 &lt;p&gt;Update HubSpot contact with payment related fields:  &lt;b&gt;Lifecycle Stage, Payment Status, Last Paid Amount, Last Purchased Product, Stripe Transaction Id, Remaining Balance&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Post a note about payment in contact timeline&lt;/p&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/screenshots/hubspot_note_full.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/screenshots/hubspot_note_full.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;Run defined HubSpot workflow after the payment&lt;/p&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/screenshots/workflows.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;h2&gt;DepositFix Dashboard&lt;/h2&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Contact List&lt;/p&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/screenshots/contacts_br.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/screenshots/contacts_br.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;Contact View&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/screenshots/contact.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/screenshots/contact.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;Transaction List&lt;/p&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/screenshots/transactions.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 
 &lt;p&gt;Discounts&lt;/p&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/screenshots/discounts.png&#34; class=&#34;screenshot&#34; /&gt;
 &lt;hr class=&#34;sep&#34;/&gt;
 
 &lt;form class=&#34;form-view&#34; id=&#34;agile-form&#34; action=&#34;https://intagent.agilecrm.com/formsubmit&#34; method=&#34;GET&#34; style=&#34;margin-bottom: 60px&#34;&gt;
@@ -781,15 +781,15 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>Payment Gateways Fee Calculator</title>
-      <link>https://www.depositfix.com/calc/</link>
+      <link>https://old.depositfix.com/calc/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/calc/</guid>
+      <guid>https://old.depositfix.com/calc/</guid>
       <description>&lt;p&gt;There are a lot of payment gateways available for your online business. Which one is right for you? One of the most important aspects to consider is transaction fee. We&amp;rsquo;ve created a fee calculator to help you to choose the right service.&lt;/p&gt;
 
 &lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.depositfix.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://www.depositfix.com/css/JSCalc.css&#34; media=&#34;screen&#34;/&gt;&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://old.depositfix.com/js/JSCalc.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://old.depositfix.com/css/JSCalc.css&#34; media=&#34;screen&#34;/&gt;&lt;/p&gt;
 
 &lt;div ng-app=&#34;fees&#34; ng-controller=&#34;feesCtrl&#34; class=&#34;calc&#34;&gt;
     &lt;form&gt;
@@ -866,8 +866,8 @@ attain your bottom line.&lt;/p&gt;
 &lt;div class=&#34;cta&#34;&gt;
 	Looking for a service to accept payments within HubSpot?
 
-		&lt;a href=&#39;https://www.depositfix.com/&#39;&gt;
-			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Try DepositFix&lt;/button&gt;
+		&lt;a href=&#39;https://old.depositfix.com/&#39;&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://old.depositfix.com/&#34;&gt;Try DepositFix&lt;/button&gt;
 		&lt;/a&gt;
 &lt;/div&gt;
 
@@ -876,20 +876,20 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>Thank you, you are awesome! We will contact you soon.</title>
-      <link>https://www.depositfix.com/thankyou/</link>
+      <link>https://old.depositfix.com/thankyou/</link>
       <pubDate>Thu, 16 Jun 2016 10:35:19 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/thankyou/</guid>
+      <guid>https://old.depositfix.com/thankyou/</guid>
       <description>&lt;h2&gt;&lt;/h2&gt;
 </description>
     </item>
     
     <item>
       <title>How to display custom error message in HubSpot form</title>
-      <link>https://www.depositfix.com/blog/custom-form-message/</link>
+      <link>https://old.depositfix.com/blog/custom-form-message/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/custom-form-message/</guid>
+      <guid>https://old.depositfix.com/blog/custom-form-message/</guid>
       <description>&lt;p&gt;HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, HubSpot form API doesn&amp;#8217;t provide a callback for failed validation.&lt;/p&gt;

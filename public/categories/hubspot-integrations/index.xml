@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hubspot Integrations on Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/categories/hubspot-integrations/index.xml</link>
+    <link>https://old.depositfix.com/categories/hubspot-integrations/index.xml</link>
     <description>Recent content in Hubspot Integrations on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
-    <atom:link href="https://www.depositfix.com/categories/hubspot-integrations/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/categories/hubspot-integrations/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why Integrating Your HubSpot with Other CMS’s is Your Major Undoing</title>
-      <link>https://www.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</link>
+      <link>https://old.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
+      <guid>https://old.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
       <description>&lt;p&gt;We already covered techniques on &lt;a href=&#34;http://integrationagent.com/how-to-integrate-your-hubspot-with-other-cms/&#34;&gt;how to integrate HubSpot with the 3rd party CMSs&lt;/a&gt;. But let&amp;#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.&lt;/p&gt;
 
 &lt;p&gt;If you craft a good content in the right context, you’ll attract the right visitors to your website, convert them into leads and close them into your loyal customers. In other words, content is like fuel that that powers any successful marketing strategy. Fortunately, this is what the HubSpot CMS is all about.&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>How to Integrate Your HubSpot with other CMSs</title>
-      <link>https://www.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</link>
+      <link>https://old.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</link>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</guid>
+      <guid>https://old.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</guid>
       <description>&lt;p&gt;Are you finding it difficult to integrate your blog or website with HubSpot marketing software? Are you worried that you’ll lose on HubSpot’s inbound marketing capabilities because your website is using Joomla, Drupal or WordPress CMS? Well, if you’ve been asking yourself these questions, then you’ve just landed on the right page.&lt;/p&gt;
 
 &lt;p&gt;It’s no secret that the HubSpot’s inbound marketing strategy—which is provided in a marketing software—can help you attract visitors to your website, convert them into leads and eventually persuade them to be your loyal customers. If you have a HubSpot marketing software, then you are assured that you’ll not only have increased online presence but also increased conversion rates from visitors to leads who’ll eventually turn into customers.&lt;/p&gt;
@@ -92,7 +92,7 @@
 
 &lt;p&gt;It&amp;#8217;s the easiest one, just install  &amp;#8220;HubSpot Tracking Code&amp;#8221; plugin.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture3.png&#34;&gt;&lt;img class=&#34;wp-image-34 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture3.png&#34; alt=&#34;Picture3&#34; width=&#34;964&#34; height=&#34;461&#34; srcset=&#34;https://www.depositfix.com/img/Picture3.png 964w, https://www.depositfix.com/img/Picture3-300x143.png 300w, https://www.depositfix.com/img/Picture3-644x308.png 644w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture3.png&#34;&gt;&lt;img class=&#34;wp-image-34 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture3.png&#34; alt=&#34;Picture3&#34; width=&#34;964&#34; height=&#34;461&#34; srcset=&#34;https://old.depositfix.com/img/Picture3.png 964w, https://old.depositfix.com/img/Picture3-300x143.png 300w, https://old.depositfix.com/img/Picture3-644x308.png 644w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;2-installing-hubspot-tracking-code-on-joomla&#34;&gt;#2: Installing HubSpot Tracking Code on Joomla&lt;/h2&gt;
 
@@ -101,7 +101,7 @@
 &lt;p&gt;Here are the steps that you should follow when installing the HubSpot’s tracking code on Joomla websites:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Begin by copying the HubSpot Tracking Code. For you to copy the HubSpot Tracking code, navigate to the “&lt;strong&gt;&lt;em&gt;Reports&lt;/em&gt;&lt;/strong&gt;” menu on your HubSpot software.         &lt;a href=&#34;https://www.depositfix.com/img/Picture6.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-37&#34; src=&#34;https://www.depositfix.com/img/Picture6-255x300.png&#34; alt=&#34;Picture6&#34; width=&#34;255&#34; height=&#34;300&#34; srcset=&#34;https://www.depositfix.com/img/Picture6-255x300.png 255w, https://www.depositfix.com/img/Picture6.png 439w&#34; sizes=&#34;(max-width: 255px) 100vw, 255px&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Begin by copying the HubSpot Tracking Code. For you to copy the HubSpot Tracking code, navigate to the “&lt;strong&gt;&lt;em&gt;Reports&lt;/em&gt;&lt;/strong&gt;” menu on your HubSpot software.         &lt;a href=&#34;https://old.depositfix.com/img/Picture6.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-37&#34; src=&#34;https://old.depositfix.com/img/Picture6-255x300.png&#34; alt=&#34;Picture6&#34; width=&#34;255&#34; height=&#34;300&#34; srcset=&#34;https://old.depositfix.com/img/Picture6-255x300.png 255w, https://old.depositfix.com/img/Picture6.png 439w&#34; sizes=&#34;(max-width: 255px) 100vw, 255px&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -110,7 +110,7 @@
 &lt;li&gt;Click on “&lt;strong&gt;&lt;em&gt;Reports Settings&lt;/em&gt;&lt;/strong&gt;”. Next, copy the copy the HubSpot Tracking Code to the clipboard.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture7.png&#34;&gt;&lt;img class=&#34;wp-image-38 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture7.png&#34; alt=&#34;Picture7&#34; width=&#34;983&#34; height=&#34;551&#34; srcset=&#34;https://www.depositfix.com/img/Picture7.png 983w, https://www.depositfix.com/img/Picture7-300x168.png 300w, https://www.depositfix.com/img/Picture7-644x361.png 644w&#34; sizes=&#34;(max-width: 983px) 100vw, 983px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture7.png&#34;&gt;&lt;img class=&#34;wp-image-38 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture7.png&#34; alt=&#34;Picture7&#34; width=&#34;983&#34; height=&#34;551&#34; srcset=&#34;https://old.depositfix.com/img/Picture7.png 983w, https://old.depositfix.com/img/Picture7-300x168.png 300w, https://old.depositfix.com/img/Picture7-644x361.png 644w&#34; sizes=&#34;(max-width: 983px) 100vw, 983px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
 
@@ -120,13 +120,13 @@
 &lt;li&gt;If you decide to use the “index.php” file option then, log into your Joomla website as an Administrator. Locate the “&lt;strong&gt;&lt;em&gt;Extensions&lt;/em&gt;&lt;/strong&gt;” and select the “&lt;strong&gt;&lt;em&gt;Template Manager&lt;/em&gt;&lt;/strong&gt;”.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture8.png&#34;&gt;&lt;img class=&#34;wp-image-39 aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture8.png&#34; alt=&#34;Picture8&#34; width=&#34;800&#34; height=&#34;171&#34; srcset=&#34;https://www.depositfix.com/img/Picture8.png 1451w, https://www.depositfix.com/img/Picture8-300x64.png 300w, https://www.depositfix.com/img/Picture8-644x138.png 644w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture8.png&#34;&gt;&lt;img class=&#34;wp-image-39 aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture8.png&#34; alt=&#34;Picture8&#34; width=&#34;800&#34; height=&#34;171&#34; srcset=&#34;https://old.depositfix.com/img/Picture8.png 1451w, https://old.depositfix.com/img/Picture8-300x64.png 300w, https://old.depositfix.com/img/Picture8-644x138.png 644w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Toggle the view on “&lt;strong&gt;&lt;em&gt;Templates&lt;/em&gt;&lt;/strong&gt;” and select the template of your choice.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture10.png&#34;&gt;&lt;img class=&#34;wp-image-41 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture10.png&#34; alt=&#34;Picture10&#34; width=&#34;758&#34; height=&#34;514&#34; srcset=&#34;https://www.depositfix.com/img/Picture10.png 758w, https://www.depositfix.com/img/Picture10-300x203.png 300w, https://www.depositfix.com/img/Picture10-644x437.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture10.png&#34;&gt;&lt;img class=&#34;wp-image-41 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture10.png&#34; alt=&#34;Picture10&#34; width=&#34;758&#34; height=&#34;514&#34; srcset=&#34;https://old.depositfix.com/img/Picture10.png 758w, https://old.depositfix.com/img/Picture10-300x203.png 300w, https://old.depositfix.com/img/Picture10-644x437.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Don’t forget to save the changes to the “index.php” file.&lt;/li&gt;
@@ -147,19 +147,19 @@
 &lt;li&gt;Click on the “&lt;strong&gt;&lt;em&gt;Blocks&lt;/em&gt;&lt;/strong&gt;”.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture11.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-42 size-full&#34; src=&#34;https://www.depositfix.com/img/Picture11.png&#34; alt=&#34;Picture11&#34; width=&#34;758&#34; height=&#34;430&#34; srcset=&#34;https://www.depositfix.com/img/Picture11.png 758w, https://www.depositfix.com/img/Picture11-300x170.png 300w, https://www.depositfix.com/img/Picture11-644x365.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture11.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-42 size-full&#34; src=&#34;https://old.depositfix.com/img/Picture11.png&#34; alt=&#34;Picture11&#34; width=&#34;758&#34; height=&#34;430&#34; srcset=&#34;https://old.depositfix.com/img/Picture11.png 758w, https://old.depositfix.com/img/Picture11-300x170.png 300w, https://old.depositfix.com/img/Picture11-644x365.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Click on the “&lt;strong&gt;&lt;em&gt;Add Block&lt;/em&gt;&lt;/strong&gt;” link.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture12.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-43 size-full&#34; src=&#34;https://www.depositfix.com/img/Picture12.png&#34; alt=&#34;Picture12&#34; width=&#34;889&#34; height=&#34;407&#34; srcset=&#34;https://www.depositfix.com/img/Picture12.png 889w, https://www.depositfix.com/img/Picture12-300x137.png 300w, https://www.depositfix.com/img/Picture12-644x295.png 644w&#34; sizes=&#34;(max-width: 889px) 100vw, 889px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture12.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-43 size-full&#34; src=&#34;https://old.depositfix.com/img/Picture12.png&#34; alt=&#34;Picture12&#34; width=&#34;889&#34; height=&#34;407&#34; srcset=&#34;https://old.depositfix.com/img/Picture12.png 889w, https://old.depositfix.com/img/Picture12-300x137.png 300w, https://old.depositfix.com/img/Picture12-644x295.png 644w&#34; sizes=&#34;(max-width: 889px) 100vw, 889px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fill in the following settings for the new block that you’ve just created:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture131.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-46&#34; src=&#34;https://www.depositfix.com/img/Picture131.png&#34; alt=&#34;Picture13&#34; width=&#34;945&#34; height=&#34;1448&#34; srcset=&#34;https://www.depositfix.com/img/Picture131.png 945w, https://www.depositfix.com/img/Picture131-196x300.png 196w, https://www.depositfix.com/img/Picture131-644x987.png 644w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture131.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-46&#34; src=&#34;https://old.depositfix.com/img/Picture131.png&#34; alt=&#34;Picture13&#34; width=&#34;945&#34; height=&#34;1448&#34; srcset=&#34;https://old.depositfix.com/img/Picture131.png 945w, https://old.depositfix.com/img/Picture131-196x300.png 196w, https://old.depositfix.com/img/Picture131-644x987.png 644w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Block title: Indicate the title of your block.&lt;/li&gt;
