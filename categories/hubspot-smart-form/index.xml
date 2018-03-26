@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hubspot Smart Form on Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/categories/hubspot-smart-form/index.xml</link>
+    <link>https://old.depositfix.com/categories/hubspot-smart-form/index.xml</link>
     <description>Recent content in Hubspot Smart Form on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
-    <atom:link href="https://www.depositfix.com/categories/hubspot-smart-form/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/categories/hubspot-smart-form/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to display custom error message in HubSpot form</title>
-      <link>https://www.depositfix.com/blog/custom-form-message/</link>
+      <link>https://old.depositfix.com/blog/custom-form-message/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/custom-form-message/</guid>
+      <guid>https://old.depositfix.com/blog/custom-form-message/</guid>
       <description>&lt;p&gt;HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, HubSpot form API doesn&amp;#8217;t provide a callback for failed validation.&lt;/p&gt;

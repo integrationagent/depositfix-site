@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hubspot on Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/categories/hubspot/index.xml</link>
+    <link>https://old.depositfix.com/categories/hubspot/index.xml</link>
     <description>Recent content in Hubspot on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
-    <atom:link href="https://www.depositfix.com/categories/hubspot/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/categories/hubspot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to integrate HubSpot form and PayPal</title>
-      <link>https://www.depositfix.com/hubspot-paypal</link>
+      <link>https://old.depositfix.com/hubspot-paypal</link>
       <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
       
-      <guid>https://www.depositfix.com/hubspot-paypal</guid>
+      <guid>https://old.depositfix.com/hubspot-paypal</guid>
       <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
 
 &lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
 
 &lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the complete source code:&lt;/p&gt;
 
@@ -107,10 +107,10 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
     
     <item>
       <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
-      <link>https://www.depositfix.com/setup-ssl</link>
+      <link>https://old.depositfix.com/setup-ssl</link>
       <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/setup-ssl</guid>
+      <guid>https://old.depositfix.com/setup-ssl</guid>
       <description>
 
 &lt;p&gt;What makes a great online store? It used to be that mobile optimization,
@@ -153,7 +153,7 @@ transactions that take place between customers and your online store.&lt;/p&gt;
 &lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
 &lt;li&gt;The website address starting with https://
 &lt;br/&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
 &lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -188,7 +188,7 @@ business.&lt;/p&gt;
 &lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
 
 &lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
-&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
@@ -211,10 +211,10 @@ It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right co
     
     <item>
       <title>5 HubSpot’s COS Best Tools that Can Power Your Social Media Strategies</title>
-      <link>https://www.depositfix.com/social-media-tools</link>
+      <link>https://old.depositfix.com/social-media-tools</link>
       <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/social-media-tools</guid>
+      <guid>https://old.depositfix.com/social-media-tools</guid>
       <description>
 
 &lt;p&gt;Developing a website (and ultimately a blog) is the first step towards
@@ -243,7 +243,7 @@ social media marketing:&lt;/p&gt;
 
 &lt;h3 id=&#34;1-social-media-inbox&#34;&gt;#1: Social Media Inbox&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you share tons of content on social media platforms, remembering
 login information for all your clients can be a herculean task. Instead
@@ -267,7 +267,7 @@ compared to your opponent.&lt;/p&gt;
 
 &lt;h3 id=&#34;2-social-monitoring&#34;&gt;#2: Social Monitoring&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An effective digital marketing strategy is one that allows a marketer to
 connect with customers at a personalized level. Remember, understanding
@@ -283,7 +283,7 @@ with all your prospects, leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;3-social-media-publishing&#34;&gt;#3: Social Media Publishing&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The HubSpot’s Social Publishing tool allows you to post to all the
 social media accounts in your organization. Remember sharing the content
@@ -298,7 +298,7 @@ all your leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;4-social-media-reporting&#34;&gt;#4: Social Media Reporting&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You&amp;rsquo;ve scheduled and published your social media content. You’ve gone
 ahead to engage with your social media followers. So, what next? You
@@ -313,7 +313,7 @@ can help you evaluate the effectiveness of your marketing efforts.&lt;/p&gt;
 
 &lt;h3 id=&#34;5-social-media-settings&#34;&gt;#5: Social Media Settings&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Different social media platforms require different publishing schedules.
 For instance, Facebook may require fewer publications of the same
@@ -341,10 +341,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>4 Ultimate Tips That Can Help You to Manage Your HubSpot Account</title>
-      <link>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</link>
+      <link>https://old.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</link>
       <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</guid>
+      <guid>https://old.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</guid>
       <description>
 
 &lt;p&gt;The task of organizing a HubSpot portal can be daunting, especially if you’re a newbie. This is because you’ve just begun to figure out how the platform works without the knowledge of how to get the maximum gains of the portal.  If you knew how to organize your HubSpot Account, then you could save a great deal of time when using this amazing inbound marketing software.&lt;/p&gt;
@@ -355,7 +355,7 @@ attain your bottom line.&lt;/p&gt;
 
 &lt;h2 id=&#34;best-practices-for-managing-a-hubspot-account&#34;&gt;Best Practices for managing a HubSpot Account&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-54&#34; src=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg&#34; alt=&#34;How to Manage HubSpot Account&#34; width=&#34;588&#34; height=&#34;701&#34; srcset=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg 644w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-252x300.jpg 252w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg 808w&#34; sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-54&#34; src=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg&#34; alt=&#34;How to Manage HubSpot Account&#34; width=&#34;588&#34; height=&#34;701&#34; srcset=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg 644w, https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-252x300.jpg 252w, https://old.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg 808w&#34; sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here are the best practices for managing your HubSpot account for your business bottom line:&lt;/p&gt;
 
@@ -391,10 +391,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>A Deep Dive into Why Your HubSpot CMS Is Slow</title>
-      <link>https://www.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</link>
+      <link>https://old.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</link>
       <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</guid>
+      <guid>https://old.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</guid>
       <description>&lt;p&gt;Do you know why your HubSpot marketing website has suddenly slowed down?&lt;/p&gt;
 
 &lt;p&gt;Consider this—a visitor who’s interested in your product enters your URL in her browser so that she can access more information about your products after finding your site on a search engine. But instead of your home page loading faster, your visitor has to keep waiting for your website pages to load slowly, one at a time.&lt;/p&gt;

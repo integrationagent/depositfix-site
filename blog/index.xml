@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Payment Solution for HubSpot</title>
-    <link>https://www.depositfix.com/blog/index.xml</link>
+    <link>https://old.depositfix.com/blog/index.xml</link>
     <description>Recent content in Blogs on Payment Solution for HubSpot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2018</copyright>
     <lastBuildDate>Tue, 31 Jan 2017 10:54:05 -0600</lastBuildDate>
-    <atom:link href="https://www.depositfix.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://old.depositfix.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to integrate HubSpot form and PayPal</title>
-      <link>https://www.depositfix.com/hubspot-paypal</link>
+      <link>https://old.depositfix.com/hubspot-paypal</link>
       <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
       
-      <guid>https://www.depositfix.com/hubspot-paypal</guid>
+      <guid>https://old.depositfix.com/hubspot-paypal</guid>
       <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
 
 &lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
 
 &lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the complete source code:&lt;/p&gt;
 
@@ -108,10 +108,10 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
     
     <item>
       <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
-      <link>https://www.depositfix.com/setup-ssl</link>
+      <link>https://old.depositfix.com/setup-ssl</link>
       <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/setup-ssl</guid>
+      <guid>https://old.depositfix.com/setup-ssl</guid>
       <description>
 
 &lt;p&gt;What makes a great online store? It used to be that mobile optimization,
@@ -154,7 +154,7 @@ transactions that take place between customers and your online store.&lt;/p&gt;
 &lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
 &lt;li&gt;The website address starting with https://
 &lt;br/&gt;
-&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/ssl_icon.png&#34;/&gt;
 &lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -189,7 +189,7 @@ business.&lt;/p&gt;
 &lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
 
 &lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
-&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://www.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://old.depositfix.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
@@ -212,10 +212,10 @@ It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right co
     
     <item>
       <title>Differences between Payment Gateway and a Merchant Account</title>
-      <link>https://www.depositfix.com/payment-gateway-merchant-account</link>
+      <link>https://old.depositfix.com/payment-gateway-merchant-account</link>
       <pubDate>Fri, 15 Jul 2016 06:24:27 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/payment-gateway-merchant-account</guid>
+      <guid>https://old.depositfix.com/payment-gateway-merchant-account</guid>
       <description>
 
 &lt;p&gt;Virtually all businesses—from big-box retailers to Etsy merchants, from
@@ -318,7 +318,7 @@ devices.&lt;/p&gt;
 	Which payment gateway has the smallest fees?
 
 		&lt;a href=&#39;http://www.depositfix.com/calc/&#39;&gt;
-			&lt;button class=&#34;button&#34; href=&#34;https://www.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
+			&lt;button class=&#34;button&#34; href=&#34;https://old.depositfix.com/&#34;&gt;Payment Gateways Fee Calculator&lt;/button&gt;
 		&lt;/a&gt;
 &lt;/div&gt;
 
@@ -336,10 +336,10 @@ and merchant accounts.&lt;/p&gt;
     
     <item>
       <title>5 HubSpot’s COS Best Tools that Can Power Your Social Media Strategies</title>
-      <link>https://www.depositfix.com/social-media-tools</link>
+      <link>https://old.depositfix.com/social-media-tools</link>
       <pubDate>Sat, 25 Jun 2016 07:20:34 -0500</pubDate>
       
-      <guid>https://www.depositfix.com/social-media-tools</guid>
+      <guid>https://old.depositfix.com/social-media-tools</guid>
       <description>
 
 &lt;p&gt;Developing a website (and ultimately a blog) is the first step towards
@@ -368,7 +368,7 @@ social media marketing:&lt;/p&gt;
 
 &lt;h3 id=&#34;1-social-media-inbox&#34;&gt;#1: Social Media Inbox&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image1.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you share tons of content on social media platforms, remembering
 login information for all your clients can be a herculean task. Instead
@@ -392,7 +392,7 @@ compared to your opponent.&lt;/p&gt;
 
 &lt;h3 id=&#34;2-social-monitoring&#34;&gt;#2: Social Monitoring&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image2.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An effective digital marketing strategy is one that allows a marketer to
 connect with customers at a personalized level. Remember, understanding
@@ -408,7 +408,7 @@ with all your prospects, leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;3-social-media-publishing&#34;&gt;#3: Social Media Publishing&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image3.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The HubSpot’s Social Publishing tool allows you to post to all the
 social media accounts in your organization. Remember sharing the content
@@ -423,7 +423,7 @@ all your leads and customers.&lt;/p&gt;
 
 &lt;h3 id=&#34;4-social-media-reporting&#34;&gt;#4: Social Media Reporting&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image4.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You&amp;rsquo;ve scheduled and published your social media content. You’ve gone
 ahead to engage with your social media followers. So, what next? You
@@ -438,7 +438,7 @@ can help you evaluate the effectiveness of your marketing efforts.&lt;/p&gt;
 
 &lt;h3 id=&#34;5-social-media-settings&#34;&gt;#5: Social Media Settings&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://old.depositfix.com/img/2016-06-26-hubspot-social/image5.png&#34; class=&#34;blog-image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Different social media platforms require different publishing schedules.
 For instance, Facebook may require fewer publications of the same
@@ -466,10 +466,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>How to display custom error message in HubSpot form</title>
-      <link>https://www.depositfix.com/blog/custom-form-message/</link>
+      <link>https://old.depositfix.com/blog/custom-form-message/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/custom-form-message/</guid>
+      <guid>https://old.depositfix.com/blog/custom-form-message/</guid>
       <description>&lt;p&gt;HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, HubSpot form API doesn&amp;#8217;t provide a callback for failed validation.&lt;/p&gt;
@@ -525,10 +525,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>4 Ultimate Tips That Can Help You to Manage Your HubSpot Account</title>
-      <link>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</link>
+      <link>https://old.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</link>
       <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</guid>
+      <guid>https://old.depositfix.com/blog/2015-12-15-4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/</guid>
       <description>
 
 &lt;p&gt;The task of organizing a HubSpot portal can be daunting, especially if you’re a newbie. This is because you’ve just begun to figure out how the platform works without the knowledge of how to get the maximum gains of the portal.  If you knew how to organize your HubSpot Account, then you could save a great deal of time when using this amazing inbound marketing software.&lt;/p&gt;
@@ -539,7 +539,7 @@ attain your bottom line.&lt;/p&gt;
 
 &lt;h2 id=&#34;best-practices-for-managing-a-hubspot-account&#34;&gt;Best Practices for managing a HubSpot Account&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-54&#34; src=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg&#34; alt=&#34;How to Manage HubSpot Account&#34; width=&#34;588&#34; height=&#34;701&#34; srcset=&#34;https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg 644w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account-252x300.jpg 252w, https://www.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg 808w&#34; sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg&#34;&gt;&lt;img class=&#34;aligncenter wp-image-54&#34; src=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg&#34; alt=&#34;How to Manage HubSpot Account&#34; width=&#34;588&#34; height=&#34;701&#34; srcset=&#34;https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-644x768.jpg 644w, https://old.depositfix.com/img/How-to-Manage-HubSpot-Account-252x300.jpg 252w, https://old.depositfix.com/img/How-to-Manage-HubSpot-Account.jpg 808w&#34; sizes=&#34;(max-width: 588px) 100vw, 588px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Here are the best practices for managing your HubSpot account for your business bottom line:&lt;/p&gt;
 
@@ -575,10 +575,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>Why Integrating Your HubSpot with Other CMS’s is Your Major Undoing</title>
-      <link>https://www.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</link>
+      <link>https://old.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</link>
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
+      <guid>https://old.depositfix.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
       <description>&lt;p&gt;We already covered techniques on &lt;a href=&#34;http://integrationagent.com/how-to-integrate-your-hubspot-with-other-cms/&#34;&gt;how to integrate HubSpot with the 3rd party CMSs&lt;/a&gt;. But let&amp;#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.&lt;/p&gt;
 
 &lt;p&gt;If you craft a good content in the right context, you’ll attract the right visitors to your website, convert them into leads and close them into your loyal customers. In other words, content is like fuel that that powers any successful marketing strategy. Fortunately, this is what the HubSpot CMS is all about.&lt;/p&gt;
@@ -622,10 +622,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>How to Integrate Your HubSpot with other CMSs</title>
-      <link>https://www.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</link>
+      <link>https://old.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</link>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</guid>
+      <guid>https://old.depositfix.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</guid>
       <description>&lt;p&gt;Are you finding it difficult to integrate your blog or website with HubSpot marketing software? Are you worried that you’ll lose on HubSpot’s inbound marketing capabilities because your website is using Joomla, Drupal or WordPress CMS? Well, if you’ve been asking yourself these questions, then you’ve just landed on the right page.&lt;/p&gt;
 
 &lt;p&gt;It’s no secret that the HubSpot’s inbound marketing strategy—which is provided in a marketing software—can help you attract visitors to your website, convert them into leads and eventually persuade them to be your loyal customers. If you have a HubSpot marketing software, then you are assured that you’ll not only have increased online presence but also increased conversion rates from visitors to leads who’ll eventually turn into customers.&lt;/p&gt;
@@ -656,7 +656,7 @@ attain your bottom line.&lt;/p&gt;
 
 &lt;p&gt;It&amp;#8217;s the easiest one, just install  &amp;#8220;HubSpot Tracking Code&amp;#8221; plugin.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture3.png&#34;&gt;&lt;img class=&#34;wp-image-34 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture3.png&#34; alt=&#34;Picture3&#34; width=&#34;964&#34; height=&#34;461&#34; srcset=&#34;https://www.depositfix.com/img/Picture3.png 964w, https://www.depositfix.com/img/Picture3-300x143.png 300w, https://www.depositfix.com/img/Picture3-644x308.png 644w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture3.png&#34;&gt;&lt;img class=&#34;wp-image-34 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture3.png&#34; alt=&#34;Picture3&#34; width=&#34;964&#34; height=&#34;461&#34; srcset=&#34;https://old.depositfix.com/img/Picture3.png 964w, https://old.depositfix.com/img/Picture3-300x143.png 300w, https://old.depositfix.com/img/Picture3-644x308.png 644w&#34; sizes=&#34;(max-width: 964px) 100vw, 964px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;2-installing-hubspot-tracking-code-on-joomla&#34;&gt;#2: Installing HubSpot Tracking Code on Joomla&lt;/h2&gt;
 
@@ -665,7 +665,7 @@ attain your bottom line.&lt;/p&gt;
 &lt;p&gt;Here are the steps that you should follow when installing the HubSpot’s tracking code on Joomla websites:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Begin by copying the HubSpot Tracking Code. For you to copy the HubSpot Tracking code, navigate to the “&lt;strong&gt;&lt;em&gt;Reports&lt;/em&gt;&lt;/strong&gt;” menu on your HubSpot software.         &lt;a href=&#34;https://www.depositfix.com/img/Picture6.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-37&#34; src=&#34;https://www.depositfix.com/img/Picture6-255x300.png&#34; alt=&#34;Picture6&#34; width=&#34;255&#34; height=&#34;300&#34; srcset=&#34;https://www.depositfix.com/img/Picture6-255x300.png 255w, https://www.depositfix.com/img/Picture6.png 439w&#34; sizes=&#34;(max-width: 255px) 100vw, 255px&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Begin by copying the HubSpot Tracking Code. For you to copy the HubSpot Tracking code, navigate to the “&lt;strong&gt;&lt;em&gt;Reports&lt;/em&gt;&lt;/strong&gt;” menu on your HubSpot software.         &lt;a href=&#34;https://old.depositfix.com/img/Picture6.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-37&#34; src=&#34;https://old.depositfix.com/img/Picture6-255x300.png&#34; alt=&#34;Picture6&#34; width=&#34;255&#34; height=&#34;300&#34; srcset=&#34;https://old.depositfix.com/img/Picture6-255x300.png 255w, https://old.depositfix.com/img/Picture6.png 439w&#34; sizes=&#34;(max-width: 255px) 100vw, 255px&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -674,7 +674,7 @@ attain your bottom line.&lt;/p&gt;
 &lt;li&gt;Click on “&lt;strong&gt;&lt;em&gt;Reports Settings&lt;/em&gt;&lt;/strong&gt;”. Next, copy the copy the HubSpot Tracking Code to the clipboard.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture7.png&#34;&gt;&lt;img class=&#34;wp-image-38 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture7.png&#34; alt=&#34;Picture7&#34; width=&#34;983&#34; height=&#34;551&#34; srcset=&#34;https://www.depositfix.com/img/Picture7.png 983w, https://www.depositfix.com/img/Picture7-300x168.png 300w, https://www.depositfix.com/img/Picture7-644x361.png 644w&#34; sizes=&#34;(max-width: 983px) 100vw, 983px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture7.png&#34;&gt;&lt;img class=&#34;wp-image-38 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture7.png&#34; alt=&#34;Picture7&#34; width=&#34;983&#34; height=&#34;551&#34; srcset=&#34;https://old.depositfix.com/img/Picture7.png 983w, https://old.depositfix.com/img/Picture7-300x168.png 300w, https://old.depositfix.com/img/Picture7-644x361.png 644w&#34; sizes=&#34;(max-width: 983px) 100vw, 983px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Step 2&lt;/strong&gt;&lt;/p&gt;
 
@@ -684,13 +684,13 @@ attain your bottom line.&lt;/p&gt;
 &lt;li&gt;If you decide to use the “index.php” file option then, log into your Joomla website as an Administrator. Locate the “&lt;strong&gt;&lt;em&gt;Extensions&lt;/em&gt;&lt;/strong&gt;” and select the “&lt;strong&gt;&lt;em&gt;Template Manager&lt;/em&gt;&lt;/strong&gt;”.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture8.png&#34;&gt;&lt;img class=&#34;wp-image-39 aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture8.png&#34; alt=&#34;Picture8&#34; width=&#34;800&#34; height=&#34;171&#34; srcset=&#34;https://www.depositfix.com/img/Picture8.png 1451w, https://www.depositfix.com/img/Picture8-300x64.png 300w, https://www.depositfix.com/img/Picture8-644x138.png 644w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture8.png&#34;&gt;&lt;img class=&#34;wp-image-39 aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture8.png&#34; alt=&#34;Picture8&#34; width=&#34;800&#34; height=&#34;171&#34; srcset=&#34;https://old.depositfix.com/img/Picture8.png 1451w, https://old.depositfix.com/img/Picture8-300x64.png 300w, https://old.depositfix.com/img/Picture8-644x138.png 644w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Toggle the view on “&lt;strong&gt;&lt;em&gt;Templates&lt;/em&gt;&lt;/strong&gt;” and select the template of your choice.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture10.png&#34;&gt;&lt;img class=&#34;wp-image-41 size-full aligncenter&#34; src=&#34;https://www.depositfix.com/img/Picture10.png&#34; alt=&#34;Picture10&#34; width=&#34;758&#34; height=&#34;514&#34; srcset=&#34;https://www.depositfix.com/img/Picture10.png 758w, https://www.depositfix.com/img/Picture10-300x203.png 300w, https://www.depositfix.com/img/Picture10-644x437.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture10.png&#34;&gt;&lt;img class=&#34;wp-image-41 size-full aligncenter&#34; src=&#34;https://old.depositfix.com/img/Picture10.png&#34; alt=&#34;Picture10&#34; width=&#34;758&#34; height=&#34;514&#34; srcset=&#34;https://old.depositfix.com/img/Picture10.png 758w, https://old.depositfix.com/img/Picture10-300x203.png 300w, https://old.depositfix.com/img/Picture10-644x437.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Don’t forget to save the changes to the “index.php” file.&lt;/li&gt;
@@ -711,19 +711,19 @@ attain your bottom line.&lt;/p&gt;
 &lt;li&gt;Click on the “&lt;strong&gt;&lt;em&gt;Blocks&lt;/em&gt;&lt;/strong&gt;”.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture11.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-42 size-full&#34; src=&#34;https://www.depositfix.com/img/Picture11.png&#34; alt=&#34;Picture11&#34; width=&#34;758&#34; height=&#34;430&#34; srcset=&#34;https://www.depositfix.com/img/Picture11.png 758w, https://www.depositfix.com/img/Picture11-300x170.png 300w, https://www.depositfix.com/img/Picture11-644x365.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture11.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-42 size-full&#34; src=&#34;https://old.depositfix.com/img/Picture11.png&#34; alt=&#34;Picture11&#34; width=&#34;758&#34; height=&#34;430&#34; srcset=&#34;https://old.depositfix.com/img/Picture11.png 758w, https://old.depositfix.com/img/Picture11-300x170.png 300w, https://old.depositfix.com/img/Picture11-644x365.png 644w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Click on the “&lt;strong&gt;&lt;em&gt;Add Block&lt;/em&gt;&lt;/strong&gt;” link.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture12.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-43 size-full&#34; src=&#34;https://www.depositfix.com/img/Picture12.png&#34; alt=&#34;Picture12&#34; width=&#34;889&#34; height=&#34;407&#34; srcset=&#34;https://www.depositfix.com/img/Picture12.png 889w, https://www.depositfix.com/img/Picture12-300x137.png 300w, https://www.depositfix.com/img/Picture12-644x295.png 644w&#34; sizes=&#34;(max-width: 889px) 100vw, 889px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture12.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-43 size-full&#34; src=&#34;https://old.depositfix.com/img/Picture12.png&#34; alt=&#34;Picture12&#34; width=&#34;889&#34; height=&#34;407&#34; srcset=&#34;https://old.depositfix.com/img/Picture12.png 889w, https://old.depositfix.com/img/Picture12-300x137.png 300w, https://old.depositfix.com/img/Picture12-644x295.png 644w&#34; sizes=&#34;(max-width: 889px) 100vw, 889px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fill in the following settings for the new block that you’ve just created:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.depositfix.com/img/Picture131.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-46&#34; src=&#34;https://www.depositfix.com/img/Picture131.png&#34; alt=&#34;Picture13&#34; width=&#34;945&#34; height=&#34;1448&#34; srcset=&#34;https://www.depositfix.com/img/Picture131.png 945w, https://www.depositfix.com/img/Picture131-196x300.png 196w, https://www.depositfix.com/img/Picture131-644x987.png 644w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://old.depositfix.com/img/Picture131.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-46&#34; src=&#34;https://old.depositfix.com/img/Picture131.png&#34; alt=&#34;Picture13&#34; width=&#34;945&#34; height=&#34;1448&#34; srcset=&#34;https://old.depositfix.com/img/Picture131.png 945w, https://old.depositfix.com/img/Picture131-196x300.png 196w, https://old.depositfix.com/img/Picture131-644x987.png 644w&#34; sizes=&#34;(max-width: 945px) 100vw, 945px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Block title: Indicate the title of your block.&lt;/li&gt;
@@ -739,10 +739,10 @@ attain your bottom line.&lt;/p&gt;
     
     <item>
       <title>A Deep Dive into Why Your HubSpot CMS Is Slow</title>
-      <link>https://www.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</link>
+      <link>https://old.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</link>
       <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</guid>
+      <guid>https://old.depositfix.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</guid>
       <description>&lt;p&gt;Do you know why your HubSpot marketing website has suddenly slowed down?&lt;/p&gt;
 
 &lt;p&gt;Consider this—a visitor who’s interested in your product enters your URL in her browser so that she can access more information about your products after finding your site on a search engine. But instead of your home page loading faster, your visitor has to keep waiting for your website pages to load slowly, one at a time.&lt;/p&gt;
